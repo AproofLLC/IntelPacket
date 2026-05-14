@@ -22,11 +22,26 @@ jobs:
           node-version: "20"
           cache: "pnpm"
 
+      - name: Enable Corepack
+        run: corepack enable
+
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
       - name: Build packages
         run: pnpm -r run build
+
+      - name: Typecheck packages
+        run: pnpm -r run typecheck
+
+      - name: Test packages
+        run: pnpm -r test
+
+      - name: npm pack dry-run
+        run: pnpm run pack:dry
+
+      - name: Monorepo structure
+        run: pnpm run verify:structure
 
       - name: Integrity hardening tests
         run: pnpm run verify:integrity

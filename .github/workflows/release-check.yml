@@ -22,21 +22,33 @@ jobs:
           node-version: "20"
           cache: "pnpm"
 
+      - name: Enable Corepack
+        run: corepack enable
+
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Full verify
-        run: pnpm run verify
+      - name: Build (all packages)
+        run: pnpm run build
+
+      - name: Typecheck (all packages)
+        run: pnpm run typecheck
+
+      - name: Test (all packages)
+        run: pnpm run test
+
+      - name: npm pack dry-run
+        run: pnpm run pack:dry
 
       - name: Monorepo structure
         run: pnpm run verify:structure
 
-      - name: npm pack dry-run
-        run: pnpm run pack:dry
+      - name: Full verify (build + typecheck + test)
+        run: pnpm run verify
 
       - name: Print package versions
         run: node .github/scripts/print-package-versions.mjs
 
       - name: Publish readiness note
         run: |
-          echo "::notice::Release check passed. Publishing is manual: run pnpm publish from packages/core, then packages/pii (no secrets or auto-publish in this workflow)."
+          echo "::notice::Release check passed. Publishing is manual: run npm publish --access public from packages/core, then packages/pii (no secrets or auto-publish in this workflow)."
