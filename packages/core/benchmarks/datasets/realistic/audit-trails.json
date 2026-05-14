@@ -1,0 +1,1445 @@
+{
+  "domain": "corp-bench",
+  "events": [
+    {
+      "event_id": "aud-0",
+      "at": "2026-02-01T00:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "READ",
+      "resource": "/records/0",
+      "outcome": "denied",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-1",
+      "at": "2026-02-01T01:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "WRITE",
+      "resource": "/records/17",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-2",
+      "at": "2026-02-01T02:00:00.000Z",
+      "actor": "batch-job",
+      "action": "DELETE",
+      "resource": "/records/34",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-3",
+      "at": "2026-02-01T03:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "EXPORT",
+      "resource": "/records/51",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-4",
+      "at": "2026-02-01T04:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "READ",
+      "resource": "/records/68",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-5",
+      "at": "2026-02-01T05:00:00.000Z",
+      "actor": "batch-job",
+      "action": "WRITE",
+      "resource": "/records/85",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-6",
+      "at": "2026-02-01T06:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "DELETE",
+      "resource": "/records/102",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-7",
+      "at": "2026-02-01T07:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "EXPORT",
+      "resource": "/records/119",
+      "outcome": "denied",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-8",
+      "at": "2026-02-01T08:00:00.000Z",
+      "actor": "batch-job",
+      "action": "READ",
+      "resource": "/records/136",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-9",
+      "at": "2026-02-01T09:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "WRITE",
+      "resource": "/records/153",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-10",
+      "at": "2026-02-01T10:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "DELETE",
+      "resource": "/records/170",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-11",
+      "at": "2026-02-01T11:00:00.000Z",
+      "actor": "batch-job",
+      "action": "EXPORT",
+      "resource": "/records/187",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-12",
+      "at": "2026-02-01T12:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "READ",
+      "resource": "/records/204",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-13",
+      "at": "2026-02-01T13:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "WRITE",
+      "resource": "/records/221",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-14",
+      "at": "2026-02-01T14:00:00.000Z",
+      "actor": "batch-job",
+      "action": "DELETE",
+      "resource": "/records/238",
+      "outcome": "denied",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-15",
+      "at": "2026-02-01T15:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "EXPORT",
+      "resource": "/records/255",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-16",
+      "at": "2026-02-01T16:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "READ",
+      "resource": "/records/272",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-17",
+      "at": "2026-02-01T17:00:00.000Z",
+      "actor": "batch-job",
+      "action": "WRITE",
+      "resource": "/records/289",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-18",
+      "at": "2026-02-01T18:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "DELETE",
+      "resource": "/records/306",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-19",
+      "at": "2026-02-01T19:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "EXPORT",
+      "resource": "/records/323",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-20",
+      "at": "2026-02-01T20:00:00.000Z",
+      "actor": "batch-job",
+      "action": "READ",
+      "resource": "/records/340",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-21",
+      "at": "2026-02-01T21:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "WRITE",
+      "resource": "/records/357",
+      "outcome": "denied",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-22",
+      "at": "2026-02-01T22:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "DELETE",
+      "resource": "/records/374",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-23",
+      "at": "2026-02-01T23:00:00.000Z",
+      "actor": "batch-job",
+      "action": "EXPORT",
+      "resource": "/records/391",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-24",
+      "at": "2026-02-01T00:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "READ",
+      "resource": "/records/408",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-25",
+      "at": "2026-02-01T01:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "WRITE",
+      "resource": "/records/425",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-26",
+      "at": "2026-02-01T02:00:00.000Z",
+      "actor": "batch-job",
+      "action": "DELETE",
+      "resource": "/records/442",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-27",
+      "at": "2026-02-01T03:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "EXPORT",
+      "resource": "/records/459",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-28",
+      "at": "2026-02-01T04:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "READ",
+      "resource": "/records/476",
+      "outcome": "denied",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-29",
+      "at": "2026-02-01T05:00:00.000Z",
+      "actor": "batch-job",
+      "action": "WRITE",
+      "resource": "/records/493",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-30",
+      "at": "2026-02-01T06:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "DELETE",
+      "resource": "/records/10",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-31",
+      "at": "2026-02-01T07:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "EXPORT",
+      "resource": "/records/27",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-32",
+      "at": "2026-02-01T08:00:00.000Z",
+      "actor": "batch-job",
+      "action": "READ",
+      "resource": "/records/44",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-33",
+      "at": "2026-02-01T09:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "WRITE",
+      "resource": "/records/61",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-34",
+      "at": "2026-02-01T10:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "DELETE",
+      "resource": "/records/78",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-35",
+      "at": "2026-02-01T11:00:00.000Z",
+      "actor": "batch-job",
+      "action": "EXPORT",
+      "resource": "/records/95",
+      "outcome": "denied",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-36",
+      "at": "2026-02-01T12:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "READ",
+      "resource": "/records/112",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-37",
+      "at": "2026-02-01T13:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "WRITE",
+      "resource": "/records/129",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-38",
+      "at": "2026-02-01T14:00:00.000Z",
+      "actor": "batch-job",
+      "action": "DELETE",
+      "resource": "/records/146",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-39",
+      "at": "2026-02-01T15:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "EXPORT",
+      "resource": "/records/163",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-40",
+      "at": "2026-02-01T16:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "READ",
+      "resource": "/records/180",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-41",
+      "at": "2026-02-01T17:00:00.000Z",
+      "actor": "batch-job",
+      "action": "WRITE",
+      "resource": "/records/197",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-42",
+      "at": "2026-02-01T18:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "DELETE",
+      "resource": "/records/214",
+      "outcome": "denied",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-43",
+      "at": "2026-02-01T19:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "EXPORT",
+      "resource": "/records/231",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-44",
+      "at": "2026-02-01T20:00:00.000Z",
+      "actor": "batch-job",
+      "action": "READ",
+      "resource": "/records/248",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-45",
+      "at": "2026-02-01T21:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "WRITE",
+      "resource": "/records/265",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-46",
+      "at": "2026-02-01T22:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "DELETE",
+      "resource": "/records/282",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-47",
+      "at": "2026-02-01T23:00:00.000Z",
+      "actor": "batch-job",
+      "action": "EXPORT",
+      "resource": "/records/299",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-48",
+      "at": "2026-02-01T00:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "READ",
+      "resource": "/records/316",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-49",
+      "at": "2026-02-01T01:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "WRITE",
+      "resource": "/records/333",
+      "outcome": "denied",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-50",
+      "at": "2026-02-01T02:00:00.000Z",
+      "actor": "batch-job",
+      "action": "DELETE",
+      "resource": "/records/350",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-51",
+      "at": "2026-02-01T03:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "EXPORT",
+      "resource": "/records/367",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-52",
+      "at": "2026-02-01T04:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "READ",
+      "resource": "/records/384",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-53",
+      "at": "2026-02-01T05:00:00.000Z",
+      "actor": "batch-job",
+      "action": "WRITE",
+      "resource": "/records/401",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-54",
+      "at": "2026-02-01T06:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "DELETE",
+      "resource": "/records/418",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-55",
+      "at": "2026-02-01T07:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "EXPORT",
+      "resource": "/records/435",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-56",
+      "at": "2026-02-01T08:00:00.000Z",
+      "actor": "batch-job",
+      "action": "READ",
+      "resource": "/records/452",
+      "outcome": "denied",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-57",
+      "at": "2026-02-01T09:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "WRITE",
+      "resource": "/records/469",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-58",
+      "at": "2026-02-01T10:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "DELETE",
+      "resource": "/records/486",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-59",
+      "at": "2026-02-01T11:00:00.000Z",
+      "actor": "batch-job",
+      "action": "EXPORT",
+      "resource": "/records/3",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-60",
+      "at": "2026-02-01T12:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "READ",
+      "resource": "/records/20",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-61",
+      "at": "2026-02-01T13:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "WRITE",
+      "resource": "/records/37",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-62",
+      "at": "2026-02-01T14:00:00.000Z",
+      "actor": "batch-job",
+      "action": "DELETE",
+      "resource": "/records/54",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-63",
+      "at": "2026-02-01T15:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "EXPORT",
+      "resource": "/records/71",
+      "outcome": "denied",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-64",
+      "at": "2026-02-01T16:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "READ",
+      "resource": "/records/88",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-65",
+      "at": "2026-02-01T17:00:00.000Z",
+      "actor": "batch-job",
+      "action": "WRITE",
+      "resource": "/records/105",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-66",
+      "at": "2026-02-01T18:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "DELETE",
+      "resource": "/records/122",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-67",
+      "at": "2026-02-01T19:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "EXPORT",
+      "resource": "/records/139",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-68",
+      "at": "2026-02-01T20:00:00.000Z",
+      "actor": "batch-job",
+      "action": "READ",
+      "resource": "/records/156",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-69",
+      "at": "2026-02-01T21:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "WRITE",
+      "resource": "/records/173",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-70",
+      "at": "2026-02-01T22:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "DELETE",
+      "resource": "/records/190",
+      "outcome": "denied",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-71",
+      "at": "2026-02-01T23:00:00.000Z",
+      "actor": "batch-job",
+      "action": "EXPORT",
+      "resource": "/records/207",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-72",
+      "at": "2026-02-01T00:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "READ",
+      "resource": "/records/224",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-73",
+      "at": "2026-02-01T01:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "WRITE",
+      "resource": "/records/241",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-74",
+      "at": "2026-02-01T02:00:00.000Z",
+      "actor": "batch-job",
+      "action": "DELETE",
+      "resource": "/records/258",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-75",
+      "at": "2026-02-01T03:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "EXPORT",
+      "resource": "/records/275",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-76",
+      "at": "2026-02-01T04:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "READ",
+      "resource": "/records/292",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-77",
+      "at": "2026-02-01T05:00:00.000Z",
+      "actor": "batch-job",
+      "action": "WRITE",
+      "resource": "/records/309",
+      "outcome": "denied",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-78",
+      "at": "2026-02-01T06:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "DELETE",
+      "resource": "/records/326",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-79",
+      "at": "2026-02-01T07:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "EXPORT",
+      "resource": "/records/343",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-80",
+      "at": "2026-02-01T08:00:00.000Z",
+      "actor": "batch-job",
+      "action": "READ",
+      "resource": "/records/360",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-81",
+      "at": "2026-02-01T09:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "WRITE",
+      "resource": "/records/377",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-82",
+      "at": "2026-02-01T10:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "DELETE",
+      "resource": "/records/394",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-83",
+      "at": "2026-02-01T11:00:00.000Z",
+      "actor": "batch-job",
+      "action": "EXPORT",
+      "resource": "/records/411",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-84",
+      "at": "2026-02-01T12:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "READ",
+      "resource": "/records/428",
+      "outcome": "denied",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-85",
+      "at": "2026-02-01T13:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "WRITE",
+      "resource": "/records/445",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-86",
+      "at": "2026-02-01T14:00:00.000Z",
+      "actor": "batch-job",
+      "action": "DELETE",
+      "resource": "/records/462",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-87",
+      "at": "2026-02-01T15:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "EXPORT",
+      "resource": "/records/479",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-88",
+      "at": "2026-02-01T16:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "READ",
+      "resource": "/records/496",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-89",
+      "at": "2026-02-01T17:00:00.000Z",
+      "actor": "batch-job",
+      "action": "WRITE",
+      "resource": "/records/13",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-90",
+      "at": "2026-02-01T18:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "DELETE",
+      "resource": "/records/30",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-91",
+      "at": "2026-02-01T19:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "EXPORT",
+      "resource": "/records/47",
+      "outcome": "denied",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-92",
+      "at": "2026-02-01T20:00:00.000Z",
+      "actor": "batch-job",
+      "action": "READ",
+      "resource": "/records/64",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-93",
+      "at": "2026-02-01T21:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "WRITE",
+      "resource": "/records/81",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-94",
+      "at": "2026-02-01T22:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "DELETE",
+      "resource": "/records/98",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-95",
+      "at": "2026-02-01T23:00:00.000Z",
+      "actor": "batch-job",
+      "action": "EXPORT",
+      "resource": "/records/115",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-96",
+      "at": "2026-02-01T00:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "READ",
+      "resource": "/records/132",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-97",
+      "at": "2026-02-01T01:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "WRITE",
+      "resource": "/records/149",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-98",
+      "at": "2026-02-01T02:00:00.000Z",
+      "actor": "batch-job",
+      "action": "DELETE",
+      "resource": "/records/166",
+      "outcome": "denied",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-99",
+      "at": "2026-02-01T03:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "EXPORT",
+      "resource": "/records/183",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-100",
+      "at": "2026-02-01T04:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "READ",
+      "resource": "/records/200",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-101",
+      "at": "2026-02-01T05:00:00.000Z",
+      "actor": "batch-job",
+      "action": "WRITE",
+      "resource": "/records/217",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-102",
+      "at": "2026-02-01T06:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "DELETE",
+      "resource": "/records/234",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-103",
+      "at": "2026-02-01T07:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "EXPORT",
+      "resource": "/records/251",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-104",
+      "at": "2026-02-01T08:00:00.000Z",
+      "actor": "batch-job",
+      "action": "READ",
+      "resource": "/records/268",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-105",
+      "at": "2026-02-01T09:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "WRITE",
+      "resource": "/records/285",
+      "outcome": "denied",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-106",
+      "at": "2026-02-01T10:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "DELETE",
+      "resource": "/records/302",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-107",
+      "at": "2026-02-01T11:00:00.000Z",
+      "actor": "batch-job",
+      "action": "EXPORT",
+      "resource": "/records/319",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-108",
+      "at": "2026-02-01T12:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "READ",
+      "resource": "/records/336",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-109",
+      "at": "2026-02-01T13:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "WRITE",
+      "resource": "/records/353",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-110",
+      "at": "2026-02-01T14:00:00.000Z",
+      "actor": "batch-job",
+      "action": "DELETE",
+      "resource": "/records/370",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-111",
+      "at": "2026-02-01T15:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "EXPORT",
+      "resource": "/records/387",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-112",
+      "at": "2026-02-01T16:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "READ",
+      "resource": "/records/404",
+      "outcome": "denied",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-113",
+      "at": "2026-02-01T17:00:00.000Z",
+      "actor": "batch-job",
+      "action": "WRITE",
+      "resource": "/records/421",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-114",
+      "at": "2026-02-01T18:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "DELETE",
+      "resource": "/records/438",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-115",
+      "at": "2026-02-01T19:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "EXPORT",
+      "resource": "/records/455",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-116",
+      "at": "2026-02-01T20:00:00.000Z",
+      "actor": "batch-job",
+      "action": "READ",
+      "resource": "/records/472",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-117",
+      "at": "2026-02-01T21:00:00.000Z",
+      "actor": "svc-principal-1",
+      "action": "WRITE",
+      "resource": "/records/489",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    },
+    {
+      "event_id": "aud-118",
+      "at": "2026-02-01T22:00:00.000Z",
+      "actor": "svc-principal-2",
+      "action": "DELETE",
+      "resource": "/records/6",
+      "outcome": "allowed",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "us-east"
+      }
+    },
+    {
+      "event_id": "aud-119",
+      "at": "2026-02-01T23:00:00.000Z",
+      "actor": "batch-job",
+      "action": "EXPORT",
+      "resource": "/records/23",
+      "outcome": "denied",
+      "meta": {
+        "ip_prefix": "10.0.",
+        "region": "eu-west"
+      }
+    }
+  ]
+}

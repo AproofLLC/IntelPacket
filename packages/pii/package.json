@@ -1,0 +1,90 @@
+{
+  "name": "@intelpacket/pii",
+  "version": "0.1.0",
+  "description": "Privacy-safe preprocessing layer for sensitive structured data before IntelPacket packetization.",
+  "license": "MIT",
+  "sideEffects": false,
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "docs"
+  ],
+  "prepublishOnly": "pnpm run typecheck && pnpm test && pnpm run test:pii && pnpm run build",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:pii": "vitest run tests/pii",
+    "test:watch": "vitest",
+    "bench": "tsx benchmarks/compression-bench.ts",
+    "bench:50x": "tsx benchmarks/engine-50x-bench.ts",
+    "bench:pii": "tsx benchmarks/pii-bench.ts",
+    "bench:realistic": "tsx benchmarks/pii-realistic-bench.ts",
+    "bench:advanced": "tsx benchmarks/advanced/advanced-pii-bench.ts",
+    "datasets:realistic": "node benchmarks/datasets/realistic/generate-pii-fixtures.mjs",
+    "datasets:build": "node benchmarks/datasets/build.mjs",
+    "example:basic": "tsx examples/basic-json.ts",
+    "example:telemetry": "tsx examples/telemetry.ts",
+    "example:state": "tsx examples/state-stream.ts",
+    "example:replay": "tsx examples/replay.ts",
+    "example:healthcare": "tsx examples/healthcare.ts",
+    "example:finance": "tsx examples/finance.ts",
+    "example:hr": "tsx examples/hr.ts",
+    "example:saas-user": "tsx examples/saas-user.ts",
+    "example:education": "tsx examples/education.ts",
+    "example:legal": "tsx examples/legal.ts"
+  },
+  "dependencies": {
+    "@intelpacket/core": "workspace:*",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "packageManager": "pnpm@9.15.0",
+  "keywords": [
+    "intelpacketpii",
+    "pii",
+    "privacy",
+    "canonical-json",
+    "compression",
+    "deduplication",
+    "delta-encoding",
+    "deterministic",
+    "hashing",
+    "normalization",
+    "replay",
+    "pre-packetization"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/intelpacket/intelpacket.git",
+    "directory": "packages/pii"
+  },
+  "bugs": {
+    "url": "https://github.com/intelpacket/intelpacket/issues"
+  },
+  "homepage": "https://github.com/intelpacket/intelpacket/tree/main/packages/pii#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}

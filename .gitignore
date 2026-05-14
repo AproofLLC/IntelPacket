@@ -1,0 +1,16 @@
+node_modules/
+dist/
+coverage/
+*.log
+.env
+.env.*
+.DS_Store
+npm-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+*.tgz
+
+.turbo/
+*.tsbuildinfo
+.pnpm-store/
+node_modules/.vite/

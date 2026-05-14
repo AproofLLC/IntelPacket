@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "idx": 0,
+      "email": "webhook.user.0@example.invalid",
+      "phone": "555-0200-0000",
+      "national_id": "SYN-WEBHOOK-000000",
+      "legal_name": "Webhook Fake User 0",
+      "addr_line": "0 Webhook Example Ave",
+      "tier": 1,
+      "event_type": "user.created"
+    },
+    {
+      "idx": 1,
+      "email": "webhook.user.1@example.invalid",
+      "phone": "555-0200-0001",
+      "national_id": "SYN-WEBHOOK-000001",
+      "legal_name": "Webhook Fake User 1",
+      "addr_line": "1 Webhook Example Ave",
+      "tier": 3,
+      "event_type": "user.updated"
+    }
+  ]
+}

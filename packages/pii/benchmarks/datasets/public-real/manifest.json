@@ -1,0 +1,34 @@
+[
+  {
+    "name": "sanitized-user-records",
+    "sourceType": "generated fake identity records",
+    "publicSafe": true,
+    "containsPII": false,
+    "license": "Generated fixture",
+    "notes": "Reserved domains and synthetic identifiers only; selected for profile-shaped policy coverage."
+  },
+  {
+    "name": "public-webhook-users",
+    "sourceType": "generated safe subset inspired by public webhook examples",
+    "publicSafe": true,
+    "containsPII": false,
+    "license": "Generated fixture; public documentation shape reference only",
+    "notes": "Fake user payloads inside webhook envelopes; selected for nested user path protection."
+  },
+  {
+    "name": "fake-support-tickets",
+    "sourceType": "generated fake support ticket records",
+    "publicSafe": true,
+    "containsPII": false,
+    "license": "Generated fixture",
+    "notes": "No real support data; selected for mixed notes and customer fields."
+  },
+  {
+    "name": "synthetic-audit-users",
+    "sourceType": "generated fake audit actor records",
+    "publicSafe": true,
+    "containsPII": false,
+    "license": "Generated fixture",
+    "notes": "Synthetic actors and reserved emails only; selected for audit-style user references."
+  }
+]

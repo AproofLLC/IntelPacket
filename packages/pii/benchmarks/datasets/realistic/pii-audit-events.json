@@ -1,0 +1,494 @@
+{
+  "events": [
+    {
+      "id": "evt-0",
+      "subject_email": "actor0@corp.invalid",
+      "target_user": "target-0@users.invalid",
+      "ip": "192.0.2.0",
+      "detail": "Synthetic audit line 0 for resource /r/0"
+    },
+    {
+      "id": "evt-1",
+      "subject_email": "actor1@corp.invalid",
+      "target_user": "target-7@users.invalid",
+      "ip": "192.0.2.1",
+      "detail": "Synthetic audit line 1 for resource /r/1"
+    },
+    {
+      "id": "evt-2",
+      "subject_email": "actor2@corp.invalid",
+      "target_user": "target-14@users.invalid",
+      "ip": "192.0.2.2",
+      "detail": "Synthetic audit line 2 for resource /r/2"
+    },
+    {
+      "id": "evt-3",
+      "subject_email": "actor3@corp.invalid",
+      "target_user": "target-21@users.invalid",
+      "ip": "192.0.2.3",
+      "detail": "Synthetic audit line 3 for resource /r/3"
+    },
+    {
+      "id": "evt-4",
+      "subject_email": "actor4@corp.invalid",
+      "target_user": "target-28@users.invalid",
+      "ip": "192.0.2.4",
+      "detail": "Synthetic audit line 4 for resource /r/4"
+    },
+    {
+      "id": "evt-5",
+      "subject_email": "actor5@corp.invalid",
+      "target_user": "target-35@users.invalid",
+      "ip": "192.0.2.5",
+      "detail": "Synthetic audit line 0 for resource /r/5"
+    },
+    {
+      "id": "evt-6",
+      "subject_email": "actor6@corp.invalid",
+      "target_user": "target-2@users.invalid",
+      "ip": "192.0.2.6",
+      "detail": "Synthetic audit line 1 for resource /r/6"
+    },
+    {
+      "id": "evt-7",
+      "subject_email": "actor7@corp.invalid",
+      "target_user": "target-9@users.invalid",
+      "ip": "192.0.2.7",
+      "detail": "Synthetic audit line 2 for resource /r/7"
+    },
+    {
+      "id": "evt-8",
+      "subject_email": "actor8@corp.invalid",
+      "target_user": "target-16@users.invalid",
+      "ip": "192.0.2.8",
+      "detail": "Synthetic audit line 3 for resource /r/8"
+    },
+    {
+      "id": "evt-9",
+      "subject_email": "actor9@corp.invalid",
+      "target_user": "target-23@users.invalid",
+      "ip": "192.0.2.9",
+      "detail": "Synthetic audit line 4 for resource /r/9"
+    },
+    {
+      "id": "evt-10",
+      "subject_email": "actor10@corp.invalid",
+      "target_user": "target-30@users.invalid",
+      "ip": "192.0.2.10",
+      "detail": "Synthetic audit line 0 for resource /r/10"
+    },
+    {
+      "id": "evt-11",
+      "subject_email": "actor11@corp.invalid",
+      "target_user": "target-37@users.invalid",
+      "ip": "192.0.2.11",
+      "detail": "Synthetic audit line 1 for resource /r/11"
+    },
+    {
+      "id": "evt-12",
+      "subject_email": "actor0@corp.invalid",
+      "target_user": "target-4@users.invalid",
+      "ip": "192.0.2.12",
+      "detail": "Synthetic audit line 2 for resource /r/12"
+    },
+    {
+      "id": "evt-13",
+      "subject_email": "actor1@corp.invalid",
+      "target_user": "target-11@users.invalid",
+      "ip": "192.0.2.13",
+      "detail": "Synthetic audit line 3 for resource /r/13"
+    },
+    {
+      "id": "evt-14",
+      "subject_email": "actor2@corp.invalid",
+      "target_user": "target-18@users.invalid",
+      "ip": "192.0.2.14",
+      "detail": "Synthetic audit line 4 for resource /r/14"
+    },
+    {
+      "id": "evt-15",
+      "subject_email": "actor3@corp.invalid",
+      "target_user": "target-25@users.invalid",
+      "ip": "192.0.2.15",
+      "detail": "Synthetic audit line 0 for resource /r/15"
+    },
+    {
+      "id": "evt-16",
+      "subject_email": "actor4@corp.invalid",
+      "target_user": "target-32@users.invalid",
+      "ip": "192.0.2.16",
+      "detail": "Synthetic audit line 1 for resource /r/16"
+    },
+    {
+      "id": "evt-17",
+      "subject_email": "actor5@corp.invalid",
+      "target_user": "target-39@users.invalid",
+      "ip": "192.0.2.17",
+      "detail": "Synthetic audit line 2 for resource /r/17"
+    },
+    {
+      "id": "evt-18",
+      "subject_email": "actor6@corp.invalid",
+      "target_user": "target-6@users.invalid",
+      "ip": "192.0.2.18",
+      "detail": "Synthetic audit line 3 for resource /r/18"
+    },
+    {
+      "id": "evt-19",
+      "subject_email": "actor7@corp.invalid",
+      "target_user": "target-13@users.invalid",
+      "ip": "192.0.2.19",
+      "detail": "Synthetic audit line 4 for resource /r/19"
+    },
+    {
+      "id": "evt-20",
+      "subject_email": "actor8@corp.invalid",
+      "target_user": "target-20@users.invalid",
+      "ip": "192.0.2.20",
+      "detail": "Synthetic audit line 0 for resource /r/20"
+    },
+    {
+      "id": "evt-21",
+      "subject_email": "actor9@corp.invalid",
+      "target_user": "target-27@users.invalid",
+      "ip": "192.0.2.21",
+      "detail": "Synthetic audit line 1 for resource /r/21"
+    },
+    {
+      "id": "evt-22",
+      "subject_email": "actor10@corp.invalid",
+      "target_user": "target-34@users.invalid",
+      "ip": "192.0.2.22",
+      "detail": "Synthetic audit line 2 for resource /r/22"
+    },
+    {
+      "id": "evt-23",
+      "subject_email": "actor11@corp.invalid",
+      "target_user": "target-1@users.invalid",
+      "ip": "192.0.2.23",
+      "detail": "Synthetic audit line 3 for resource /r/23"
+    },
+    {
+      "id": "evt-24",
+      "subject_email": "actor0@corp.invalid",
+      "target_user": "target-8@users.invalid",
+      "ip": "192.0.2.24",
+      "detail": "Synthetic audit line 4 for resource /r/24"
+    },
+    {
+      "id": "evt-25",
+      "subject_email": "actor1@corp.invalid",
+      "target_user": "target-15@users.invalid",
+      "ip": "192.0.2.25",
+      "detail": "Synthetic audit line 0 for resource /r/25"
+    },
+    {
+      "id": "evt-26",
+      "subject_email": "actor2@corp.invalid",
+      "target_user": "target-22@users.invalid",
+      "ip": "192.0.2.26",
+      "detail": "Synthetic audit line 1 for resource /r/26"
+    },
+    {
+      "id": "evt-27",
+      "subject_email": "actor3@corp.invalid",
+      "target_user": "target-29@users.invalid",
+      "ip": "192.0.2.27",
+      "detail": "Synthetic audit line 2 for resource /r/27"
+    },
+    {
+      "id": "evt-28",
+      "subject_email": "actor4@corp.invalid",
+      "target_user": "target-36@users.invalid",
+      "ip": "192.0.2.28",
+      "detail": "Synthetic audit line 3 for resource /r/28"
+    },
+    {
+      "id": "evt-29",
+      "subject_email": "actor5@corp.invalid",
+      "target_user": "target-3@users.invalid",
+      "ip": "192.0.2.29",
+      "detail": "Synthetic audit line 4 for resource /r/29"
+    },
+    {
+      "id": "evt-30",
+      "subject_email": "actor6@corp.invalid",
+      "target_user": "target-10@users.invalid",
+      "ip": "192.0.2.30",
+      "detail": "Synthetic audit line 0 for resource /r/0"
+    },
+    {
+      "id": "evt-31",
+      "subject_email": "actor7@corp.invalid",
+      "target_user": "target-17@users.invalid",
+      "ip": "192.0.2.31",
+      "detail": "Synthetic audit line 1 for resource /r/1"
+    },
+    {
+      "id": "evt-32",
+      "subject_email": "actor8@corp.invalid",
+      "target_user": "target-24@users.invalid",
+      "ip": "192.0.2.32",
+      "detail": "Synthetic audit line 2 for resource /r/2"
+    },
+    {
+      "id": "evt-33",
+      "subject_email": "actor9@corp.invalid",
+      "target_user": "target-31@users.invalid",
+      "ip": "192.0.2.33",
+      "detail": "Synthetic audit line 3 for resource /r/3"
+    },
+    {
+      "id": "evt-34",
+      "subject_email": "actor10@corp.invalid",
+      "target_user": "target-38@users.invalid",
+      "ip": "192.0.2.34",
+      "detail": "Synthetic audit line 4 for resource /r/4"
+    },
+    {
+      "id": "evt-35",
+      "subject_email": "actor11@corp.invalid",
+      "target_user": "target-5@users.invalid",
+      "ip": "192.0.2.35",
+      "detail": "Synthetic audit line 0 for resource /r/5"
+    },
+    {
+      "id": "evt-36",
+      "subject_email": "actor0@corp.invalid",
+      "target_user": "target-12@users.invalid",
+      "ip": "192.0.2.36",
+      "detail": "Synthetic audit line 1 for resource /r/6"
+    },
+    {
+      "id": "evt-37",
+      "subject_email": "actor1@corp.invalid",
+      "target_user": "target-19@users.invalid",
+      "ip": "192.0.2.37",
+      "detail": "Synthetic audit line 2 for resource /r/7"
+    },
+    {
+      "id": "evt-38",
+      "subject_email": "actor2@corp.invalid",
+      "target_user": "target-26@users.invalid",
+      "ip": "192.0.2.38",
+      "detail": "Synthetic audit line 3 for resource /r/8"
+    },
+    {
+      "id": "evt-39",
+      "subject_email": "actor3@corp.invalid",
+      "target_user": "target-33@users.invalid",
+      "ip": "192.0.2.39",
+      "detail": "Synthetic audit line 4 for resource /r/9"
+    },
+    {
+      "id": "evt-40",
+      "subject_email": "actor4@corp.invalid",
+      "target_user": "target-0@users.invalid",
+      "ip": "192.0.2.40",
+      "detail": "Synthetic audit line 0 for resource /r/10"
+    },
+    {
+      "id": "evt-41",
+      "subject_email": "actor5@corp.invalid",
+      "target_user": "target-7@users.invalid",
+      "ip": "192.0.2.41",
+      "detail": "Synthetic audit line 1 for resource /r/11"
+    },
+    {
+      "id": "evt-42",
+      "subject_email": "actor6@corp.invalid",
+      "target_user": "target-14@users.invalid",
+      "ip": "192.0.2.42",
+      "detail": "Synthetic audit line 2 for resource /r/12"
+    },
+    {
+      "id": "evt-43",
+      "subject_email": "actor7@corp.invalid",
+      "target_user": "target-21@users.invalid",
+      "ip": "192.0.2.43",
+      "detail": "Synthetic audit line 3 for resource /r/13"
+    },
+    {
+      "id": "evt-44",
+      "subject_email": "actor8@corp.invalid",
+      "target_user": "target-28@users.invalid",
+      "ip": "192.0.2.44",
+      "detail": "Synthetic audit line 4 for resource /r/14"
+    },
+    {
+      "id": "evt-45",
+      "subject_email": "actor9@corp.invalid",
+      "target_user": "target-35@users.invalid",
+      "ip": "192.0.2.45",
+      "detail": "Synthetic audit line 0 for resource /r/15"
+    },
+    {
+      "id": "evt-46",
+      "subject_email": "actor10@corp.invalid",
+      "target_user": "target-2@users.invalid",
+      "ip": "192.0.2.46",
+      "detail": "Synthetic audit line 1 for resource /r/16"
+    },
+    {
+      "id": "evt-47",
+      "subject_email": "actor11@corp.invalid",
+      "target_user": "target-9@users.invalid",
+      "ip": "192.0.2.47",
+      "detail": "Synthetic audit line 2 for resource /r/17"
+    },
+    {
+      "id": "evt-48",
+      "subject_email": "actor0@corp.invalid",
+      "target_user": "target-16@users.invalid",
+      "ip": "192.0.2.48",
+      "detail": "Synthetic audit line 3 for resource /r/18"
+    },
+    {
+      "id": "evt-49",
+      "subject_email": "actor1@corp.invalid",
+      "target_user": "target-23@users.invalid",
+      "ip": "192.0.2.49",
+      "detail": "Synthetic audit line 4 for resource /r/19"
+    },
+    {
+      "id": "evt-50",
+      "subject_email": "actor2@corp.invalid",
+      "target_user": "target-30@users.invalid",
+      "ip": "192.0.2.50",
+      "detail": "Synthetic audit line 0 for resource /r/20"
+    },
+    {
+      "id": "evt-51",
+      "subject_email": "actor3@corp.invalid",
+      "target_user": "target-37@users.invalid",
+      "ip": "192.0.2.51",
+      "detail": "Synthetic audit line 1 for resource /r/21"
+    },
+    {
+      "id": "evt-52",
+      "subject_email": "actor4@corp.invalid",
+      "target_user": "target-4@users.invalid",
+      "ip": "192.0.2.52",
+      "detail": "Synthetic audit line 2 for resource /r/22"
+    },
+    {
+      "id": "evt-53",
+      "subject_email": "actor5@corp.invalid",
+      "target_user": "target-11@users.invalid",
+      "ip": "192.0.2.53",
+      "detail": "Synthetic audit line 3 for resource /r/23"
+    },
+    {
+      "id": "evt-54",
+      "subject_email": "actor6@corp.invalid",
+      "target_user": "target-18@users.invalid",
+      "ip": "192.0.2.54",
+      "detail": "Synthetic audit line 4 for resource /r/24"
+    },
+    {
+      "id": "evt-55",
+      "subject_email": "actor7@corp.invalid",
+      "target_user": "target-25@users.invalid",
+      "ip": "192.0.2.55",
+      "detail": "Synthetic audit line 0 for resource /r/25"
+    },
+    {
+      "id": "evt-56",
+      "subject_email": "actor8@corp.invalid",
+      "target_user": "target-32@users.invalid",
+      "ip": "192.0.2.56",
+      "detail": "Synthetic audit line 1 for resource /r/26"
+    },
+    {
+      "id": "evt-57",
+      "subject_email": "actor9@corp.invalid",
+      "target_user": "target-39@users.invalid",
+      "ip": "192.0.2.57",
+      "detail": "Synthetic audit line 2 for resource /r/27"
+    },
+    {
+      "id": "evt-58",
+      "subject_email": "actor10@corp.invalid",
+      "target_user": "target-6@users.invalid",
+      "ip": "192.0.2.58",
+      "detail": "Synthetic audit line 3 for resource /r/28"
+    },
+    {
+      "id": "evt-59",
+      "subject_email": "actor11@corp.invalid",
+      "target_user": "target-13@users.invalid",
+      "ip": "192.0.2.59",
+      "detail": "Synthetic audit line 4 for resource /r/29"
+    },
+    {
+      "id": "evt-60",
+      "subject_email": "actor0@corp.invalid",
+      "target_user": "target-20@users.invalid",
+      "ip": "192.0.2.60",
+      "detail": "Synthetic audit line 0 for resource /r/0"
+    },
+    {
+      "id": "evt-61",
+      "subject_email": "actor1@corp.invalid",
+      "target_user": "target-27@users.invalid",
+      "ip": "192.0.2.61",
+      "detail": "Synthetic audit line 1 for resource /r/1"
+    },
+    {
+      "id": "evt-62",
+      "subject_email": "actor2@corp.invalid",
+      "target_user": "target-34@users.invalid",
+      "ip": "192.0.2.62",
+      "detail": "Synthetic audit line 2 for resource /r/2"
+    },
+    {
+      "id": "evt-63",
+      "subject_email": "actor3@corp.invalid",
+      "target_user": "target-1@users.invalid",
+      "ip": "192.0.2.63",
+      "detail": "Synthetic audit line 3 for resource /r/3"
+    },
+    {
+      "id": "evt-64",
+      "subject_email": "actor4@corp.invalid",
+      "target_user": "target-8@users.invalid",
+      "ip": "192.0.2.64",
+      "detail": "Synthetic audit line 4 for resource /r/4"
+    },
+    {
+      "id": "evt-65",
+      "subject_email": "actor5@corp.invalid",
+      "target_user": "target-15@users.invalid",
+      "ip": "192.0.2.65",
+      "detail": "Synthetic audit line 0 for resource /r/5"
+    },
+    {
+      "id": "evt-66",
+      "subject_email": "actor6@corp.invalid",
+      "target_user": "target-22@users.invalid",
+      "ip": "192.0.2.66",
+      "detail": "Synthetic audit line 1 for resource /r/6"
+    },
+    {
+      "id": "evt-67",
+      "subject_email": "actor7@corp.invalid",
+      "target_user": "target-29@users.invalid",
+      "ip": "192.0.2.67",
+      "detail": "Synthetic audit line 2 for resource /r/7"
+    },
+    {
+      "id": "evt-68",
+      "subject_email": "actor8@corp.invalid",
+      "target_user": "target-36@users.invalid",
+      "ip": "192.0.2.68",
+      "detail": "Synthetic audit line 3 for resource /r/8"
+    },
+    {
+      "id": "evt-69",
+      "subject_email": "actor9@corp.invalid",
+      "target_user": "target-3@users.invalid",
+      "ip": "192.0.2.69",
+      "detail": "Synthetic audit line 4 for resource /r/9"
+    }
+  ]
+}

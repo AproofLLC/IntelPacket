@@ -1,0 +1,28 @@
+{
+  "records": [
+    {
+      "apiVersion": "events.k8s.io/v1",
+      "kind": "Event",
+      "metadata": { "name": "pod-started.1001", "namespace": "example-namespace", "uid": "uid-0001" },
+      "reason": "Started",
+      "type": "Normal",
+      "action": "Started",
+      "reportingController": "kubelet",
+      "regarding": { "kind": "Pod", "namespace": "example-namespace", "name": "example-pod-1", "uid": "pod-uid-1" },
+      "eventTime": "2026-01-01T00:00:00Z",
+      "note": "Started container synthetic-app"
+    },
+    {
+      "apiVersion": "events.k8s.io/v1",
+      "kind": "Event",
+      "metadata": { "name": "pod-scheduled.1002", "namespace": "example-namespace", "uid": "uid-0002" },
+      "reason": "Scheduled",
+      "type": "Normal",
+      "action": "Binding",
+      "reportingController": "scheduler",
+      "regarding": { "kind": "Pod", "namespace": "example-namespace", "name": "example-pod-2", "uid": "pod-uid-2" },
+      "eventTime": "2026-01-01T00:01:00Z",
+      "note": "Successfully assigned example-namespace/example-pod-2"
+    }
+  ]
+}

@@ -1,0 +1,1159 @@
+{
+  "streams": [
+    {
+      "device": "iot-dev-0",
+      "points": [
+        {
+          "operator_id": "op-0",
+          "session_owner": "session.user.0@iot.invalid",
+          "device_token": "dtok-synth-0-0-0",
+          "metric": 0.5
+        },
+        {
+          "operator_id": "op-1",
+          "session_owner": "session.user.0@iot.invalid",
+          "device_token": "dtok-synth-0-1-1",
+          "metric": 0.52
+        },
+        {
+          "operator_id": "op-2",
+          "session_owner": "session.user.0@iot.invalid",
+          "device_token": "dtok-synth-0-2-2",
+          "metric": 0.54
+        },
+        {
+          "operator_id": "op-3",
+          "session_owner": "session.user.0@iot.invalid",
+          "device_token": "dtok-synth-0-3-3",
+          "metric": 0.56
+        },
+        {
+          "operator_id": "op-4",
+          "session_owner": "session.user.0@iot.invalid",
+          "device_token": "dtok-synth-0-4-4",
+          "metric": 0.58
+        },
+        {
+          "operator_id": "op-5",
+          "session_owner": "session.user.0@iot.invalid",
+          "device_token": "dtok-synth-0-5-5",
+          "metric": 0.6
+        },
+        {
+          "operator_id": "op-6",
+          "session_owner": "session.user.0@iot.invalid",
+          "device_token": "dtok-synth-0-6-6",
+          "metric": 0.62
+        },
+        {
+          "operator_id": "op-7",
+          "session_owner": "session.user.0@iot.invalid",
+          "device_token": "dtok-synth-0-7-7",
+          "metric": 0.64
+        },
+        {
+          "operator_id": "op-0",
+          "session_owner": "session.user.0@iot.invalid",
+          "device_token": "dtok-synth-0-8-8",
+          "metric": 0.66
+        },
+        {
+          "operator_id": "op-1",
+          "session_owner": "session.user.0@iot.invalid",
+          "device_token": "dtok-synth-0-9-9",
+          "metric": 0.6799999999999999
+        },
+        {
+          "operator_id": "op-2",
+          "session_owner": "session.user.0@iot.invalid",
+          "device_token": "dtok-synth-0-10-10",
+          "metric": 0.7
+        },
+        {
+          "operator_id": "op-3",
+          "session_owner": "session.user.0@iot.invalid",
+          "device_token": "dtok-synth-0-11-11",
+          "metric": 0.72
+        }
+      ]
+    },
+    {
+      "device": "iot-dev-1",
+      "points": [
+        {
+          "operator_id": "op-1",
+          "session_owner": "session.user.1@iot.invalid",
+          "device_token": "dtok-synth-1-0-17",
+          "metric": 0.5
+        },
+        {
+          "operator_id": "op-2",
+          "session_owner": "session.user.1@iot.invalid",
+          "device_token": "dtok-synth-1-1-18",
+          "metric": 0.52
+        },
+        {
+          "operator_id": "op-3",
+          "session_owner": "session.user.1@iot.invalid",
+          "device_token": "dtok-synth-1-2-19",
+          "metric": 0.54
+        },
+        {
+          "operator_id": "op-4",
+          "session_owner": "session.user.1@iot.invalid",
+          "device_token": "dtok-synth-1-3-20",
+          "metric": 0.56
+        },
+        {
+          "operator_id": "op-5",
+          "session_owner": "session.user.1@iot.invalid",
+          "device_token": "dtok-synth-1-4-21",
+          "metric": 0.58
+        },
+        {
+          "operator_id": "op-6",
+          "session_owner": "session.user.1@iot.invalid",
+          "device_token": "dtok-synth-1-5-22",
+          "metric": 0.6
+        },
+        {
+          "operator_id": "op-7",
+          "session_owner": "session.user.1@iot.invalid",
+          "device_token": "dtok-synth-1-6-23",
+          "metric": 0.62
+        },
+        {
+          "operator_id": "op-0",
+          "session_owner": "session.user.1@iot.invalid",
+          "device_token": "dtok-synth-1-7-24",
+          "metric": 0.64
+        },
+        {
+          "operator_id": "op-1",
+          "session_owner": "session.user.1@iot.invalid",
+          "device_token": "dtok-synth-1-8-25",
+          "metric": 0.66
+        },
+        {
+          "operator_id": "op-2",
+          "session_owner": "session.user.1@iot.invalid",
+          "device_token": "dtok-synth-1-9-26",
+          "metric": 0.6799999999999999
+        },
+        {
+          "operator_id": "op-3",
+          "session_owner": "session.user.1@iot.invalid",
+          "device_token": "dtok-synth-1-10-27",
+          "metric": 0.7
+        },
+        {
+          "operator_id": "op-4",
+          "session_owner": "session.user.1@iot.invalid",
+          "device_token": "dtok-synth-1-11-28",
+          "metric": 0.72
+        }
+      ]
+    },
+    {
+      "device": "iot-dev-2",
+      "points": [
+        {
+          "operator_id": "op-2",
+          "session_owner": "session.user.2@iot.invalid",
+          "device_token": "dtok-synth-2-0-34",
+          "metric": 0.5
+        },
+        {
+          "operator_id": "op-3",
+          "session_owner": "session.user.2@iot.invalid",
+          "device_token": "dtok-synth-2-1-35",
+          "metric": 0.52
+        },
+        {
+          "operator_id": "op-4",
+          "session_owner": "session.user.2@iot.invalid",
+          "device_token": "dtok-synth-2-2-36",
+          "metric": 0.54
+        },
+        {
+          "operator_id": "op-5",
+          "session_owner": "session.user.2@iot.invalid",
+          "device_token": "dtok-synth-2-3-37",
+          "metric": 0.56
+        },
+        {
+          "operator_id": "op-6",
+          "session_owner": "session.user.2@iot.invalid",
+          "device_token": "dtok-synth-2-4-38",
+          "metric": 0.58
+        },
+        {
+          "operator_id": "op-7",
+          "session_owner": "session.user.2@iot.invalid",
+          "device_token": "dtok-synth-2-5-39",
+          "metric": 0.6
+        },
+        {
+          "operator_id": "op-0",
+          "session_owner": "session.user.2@iot.invalid",
+          "device_token": "dtok-synth-2-6-40",
+          "metric": 0.62
+        },
+        {
+          "operator_id": "op-1",
+          "session_owner": "session.user.2@iot.invalid",
+          "device_token": "dtok-synth-2-7-41",
+          "metric": 0.64
+        },
+        {
+          "operator_id": "op-2",
+          "session_owner": "session.user.2@iot.invalid",
+          "device_token": "dtok-synth-2-8-42",
+          "metric": 0.66
+        },
+        {
+          "operator_id": "op-3",
+          "session_owner": "session.user.2@iot.invalid",
+          "device_token": "dtok-synth-2-9-43",
+          "metric": 0.6799999999999999
+        },
+        {
+          "operator_id": "op-4",
+          "session_owner": "session.user.2@iot.invalid",
+          "device_token": "dtok-synth-2-10-44",
+          "metric": 0.7
+        },
+        {
+          "operator_id": "op-5",
+          "session_owner": "session.user.2@iot.invalid",
+          "device_token": "dtok-synth-2-11-45",
+          "metric": 0.72
+        }
+      ]
+    },
+    {
+      "device": "iot-dev-3",
+      "points": [
+        {
+          "operator_id": "op-3",
+          "session_owner": "session.user.3@iot.invalid",
+          "device_token": "dtok-synth-3-0-51",
+          "metric": 0.5
+        },
+        {
+          "operator_id": "op-4",
+          "session_owner": "session.user.3@iot.invalid",
+          "device_token": "dtok-synth-3-1-52",
+          "metric": 0.52
+        },
+        {
+          "operator_id": "op-5",
+          "session_owner": "session.user.3@iot.invalid",
+          "device_token": "dtok-synth-3-2-53",
+          "metric": 0.54
+        },
+        {
+          "operator_id": "op-6",
+          "session_owner": "session.user.3@iot.invalid",
+          "device_token": "dtok-synth-3-3-54",
+          "metric": 0.56
+        },
+        {
+          "operator_id": "op-7",
+          "session_owner": "session.user.3@iot.invalid",
+          "device_token": "dtok-synth-3-4-55",
+          "metric": 0.58
+        },
+        {
+          "operator_id": "op-0",
+          "session_owner": "session.user.3@iot.invalid",
+          "device_token": "dtok-synth-3-5-56",
+          "metric": 0.6
+        },
+        {
+          "operator_id": "op-1",
+          "session_owner": "session.user.3@iot.invalid",
+          "device_token": "dtok-synth-3-6-57",
+          "metric": 0.62
+        },
+        {
+          "operator_id": "op-2",
+          "session_owner": "session.user.3@iot.invalid",
+          "device_token": "dtok-synth-3-7-58",
+          "metric": 0.64
+        },
+        {
+          "operator_id": "op-3",
+          "session_owner": "session.user.3@iot.invalid",
+          "device_token": "dtok-synth-3-8-59",
+          "metric": 0.66
+        },
+        {
+          "operator_id": "op-4",
+          "session_owner": "session.user.3@iot.invalid",
+          "device_token": "dtok-synth-3-9-60",
+          "metric": 0.6799999999999999
+        },
+        {
+          "operator_id": "op-5",
+          "session_owner": "session.user.3@iot.invalid",
+          "device_token": "dtok-synth-3-10-61",
+          "metric": 0.7
+        },
+        {
+          "operator_id": "op-6",
+          "session_owner": "session.user.3@iot.invalid",
+          "device_token": "dtok-synth-3-11-62",
+          "metric": 0.72
+        }
+      ]
+    },
+    {
+      "device": "iot-dev-4",
+      "points": [
+        {
+          "operator_id": "op-4",
+          "session_owner": "session.user.4@iot.invalid",
+          "device_token": "dtok-synth-4-0-68",
+          "metric": 0.5
+        },
+        {
+          "operator_id": "op-5",
+          "session_owner": "session.user.4@iot.invalid",
+          "device_token": "dtok-synth-4-1-69",
+          "metric": 0.52
+        },
+        {
+          "operator_id": "op-6",
+          "session_owner": "session.user.4@iot.invalid",
+          "device_token": "dtok-synth-4-2-70",
+          "metric": 0.54
+        },
+        {
+          "operator_id": "op-7",
+          "session_owner": "session.user.4@iot.invalid",
+          "device_token": "dtok-synth-4-3-71",
+          "metric": 0.56
+        },
+        {
+          "operator_id": "op-0",
+          "session_owner": "session.user.4@iot.invalid",
+          "device_token": "dtok-synth-4-4-72",
+          "metric": 0.58
+        },
+        {
+          "operator_id": "op-1",
+          "session_owner": "session.user.4@iot.invalid",
+          "device_token": "dtok-synth-4-5-73",
+          "metric": 0.6
+        },
+        {
+          "operator_id": "op-2",
+          "session_owner": "session.user.4@iot.invalid",
+          "device_token": "dtok-synth-4-6-74",
+          "metric": 0.62
+        },
+        {
+          "operator_id": "op-3",
+          "session_owner": "session.user.4@iot.invalid",
+          "device_token": "dtok-synth-4-7-75",
+          "metric": 0.64
+        },
+        {
+          "operator_id": "op-4",
+          "session_owner": "session.user.4@iot.invalid",
+          "device_token": "dtok-synth-4-8-76",
+          "metric": 0.66
+        },
+        {
+          "operator_id": "op-5",
+          "session_owner": "session.user.4@iot.invalid",
+          "device_token": "dtok-synth-4-9-77",
+          "metric": 0.6799999999999999
+        },
+        {
+          "operator_id": "op-6",
+          "session_owner": "session.user.4@iot.invalid",
+          "device_token": "dtok-synth-4-10-78",
+          "metric": 0.7
+        },
+        {
+          "operator_id": "op-7",
+          "session_owner": "session.user.4@iot.invalid",
+          "device_token": "dtok-synth-4-11-79",
+          "metric": 0.72
+        }
+      ]
+    },
+    {
+      "device": "iot-dev-5",
+      "points": [
+        {
+          "operator_id": "op-5",
+          "session_owner": "session.user.5@iot.invalid",
+          "device_token": "dtok-synth-5-0-85",
+          "metric": 0.5
+        },
+        {
+          "operator_id": "op-6",
+          "session_owner": "session.user.5@iot.invalid",
+          "device_token": "dtok-synth-5-1-86",
+          "metric": 0.52
+        },
+        {
+          "operator_id": "op-7",
+          "session_owner": "session.user.5@iot.invalid",
+          "device_token": "dtok-synth-5-2-87",
+          "metric": 0.54
+        },
+        {
+          "operator_id": "op-0",
+          "session_owner": "session.user.5@iot.invalid",
+          "device_token": "dtok-synth-5-3-88",
+          "metric": 0.56
+        },
+        {
+          "operator_id": "op-1",
+          "session_owner": "session.user.5@iot.invalid",
+          "device_token": "dtok-synth-5-4-89",
+          "metric": 0.58
+        },
+        {
+          "operator_id": "op-2",
+          "session_owner": "session.user.5@iot.invalid",
+          "device_token": "dtok-synth-5-5-90",
+          "metric": 0.6
+        },
+        {
+          "operator_id": "op-3",
+          "session_owner": "session.user.5@iot.invalid",
+          "device_token": "dtok-synth-5-6-91",
+          "metric": 0.62
+        },
+        {
+          "operator_id": "op-4",
+          "session_owner": "session.user.5@iot.invalid",
+          "device_token": "dtok-synth-5-7-92",
+          "metric": 0.64
+        },
+        {
+          "operator_id": "op-5",
+          "session_owner": "session.user.5@iot.invalid",
+          "device_token": "dtok-synth-5-8-93",
+          "metric": 0.66
+        },
+        {
+          "operator_id": "op-6",
+          "session_owner": "session.user.5@iot.invalid",
+          "device_token": "dtok-synth-5-9-94",
+          "metric": 0.6799999999999999
+        },
+        {
+          "operator_id": "op-7",
+          "session_owner": "session.user.5@iot.invalid",
+          "device_token": "dtok-synth-5-10-95",
+          "metric": 0.7
+        },
+        {
+          "operator_id": "op-0",
+          "session_owner": "session.user.5@iot.invalid",
+          "device_token": "dtok-synth-5-11-96",
+          "metric": 0.72
+        }
+      ]
+    },
+    {
+      "device": "iot-dev-6",
+      "points": [
+        {
+          "operator_id": "op-6",
+          "session_owner": "session.user.6@iot.invalid",
+          "device_token": "dtok-synth-6-0-102",
+          "metric": 0.5
+        },
+        {
+          "operator_id": "op-7",
+          "session_owner": "session.user.6@iot.invalid",
+          "device_token": "dtok-synth-6-1-103",
+          "metric": 0.52
+        },
+        {
+          "operator_id": "op-0",
+          "session_owner": "session.user.6@iot.invalid",
+          "device_token": "dtok-synth-6-2-104",
+          "metric": 0.54
+        },
+        {
+          "operator_id": "op-1",
+          "session_owner": "session.user.6@iot.invalid",
+          "device_token": "dtok-synth-6-3-105",
+          "metric": 0.56
+        },
+        {
+          "operator_id": "op-2",
+          "session_owner": "session.user.6@iot.invalid",
+          "device_token": "dtok-synth-6-4-106",
+          "metric": 0.58
+        },
+        {
+          "operator_id": "op-3",
+          "session_owner": "session.user.6@iot.invalid",
+          "device_token": "dtok-synth-6-5-107",
+          "metric": 0.6
+        },
+        {
+          "operator_id": "op-4",
+          "session_owner": "session.user.6@iot.invalid",
+          "device_token": "dtok-synth-6-6-108",
+          "metric": 0.62
+        },
+        {
+          "operator_id": "op-5",
+          "session_owner": "session.user.6@iot.invalid",
+          "device_token": "dtok-synth-6-7-109",
+          "metric": 0.64
+        },
+        {
+          "operator_id": "op-6",
+          "session_owner": "session.user.6@iot.invalid",
+          "device_token": "dtok-synth-6-8-110",
+          "metric": 0.66
+        },
+        {
+          "operator_id": "op-7",
+          "session_owner": "session.user.6@iot.invalid",
+          "device_token": "dtok-synth-6-9-111",
+          "metric": 0.6799999999999999
+        },
+        {
+          "operator_id": "op-0",
+          "session_owner": "session.user.6@iot.invalid",
+          "device_token": "dtok-synth-6-10-112",
+          "metric": 0.7
+        },
+        {
+          "operator_id": "op-1",
+          "session_owner": "session.user.6@iot.invalid",
+          "device_token": "dtok-synth-6-11-113",
+          "metric": 0.72
+        }
+      ]
+    },
+    {
+      "device": "iot-dev-7",
+      "points": [
+        {
+          "operator_id": "op-7",
+          "session_owner": "session.user.7@iot.invalid",
+          "device_token": "dtok-synth-7-0-119",
+          "metric": 0.5
+        },
+        {
+          "operator_id": "op-0",
+          "session_owner": "session.user.7@iot.invalid",
+          "device_token": "dtok-synth-7-1-120",
+          "metric": 0.52
+        },
+        {
+          "operator_id": "op-1",
+          "session_owner": "session.user.7@iot.invalid",
+          "device_token": "dtok-synth-7-2-121",
+          "metric": 0.54
+        },
+        {
+          "operator_id": "op-2",
+          "session_owner": "session.user.7@iot.invalid",
+          "device_token": "dtok-synth-7-3-122",
+          "metric": 0.56
+        },
+        {
+          "operator_id": "op-3",
+          "session_owner": "session.user.7@iot.invalid",
+          "device_token": "dtok-synth-7-4-123",
+          "metric": 0.58
+        },
+        {
+          "operator_id": "op-4",
+          "session_owner": "session.user.7@iot.invalid",
+          "device_token": "dtok-synth-7-5-124",
+          "metric": 0.6
+        },
+        {
+          "operator_id": "op-5",
+          "session_owner": "session.user.7@iot.invalid",
+          "device_token": "dtok-synth-7-6-125",
+          "metric": 0.62
+        },
+        {
+          "operator_id": "op-6",
+          "session_owner": "session.user.7@iot.invalid",
+          "device_token": "dtok-synth-7-7-126",
+          "metric": 0.64
+        },
+        {
+          "operator_id": "op-7",
+          "session_owner": "session.user.7@iot.invalid",
+          "device_token": "dtok-synth-7-8-127",
+          "metric": 0.66
+        },
+        {
+          "operator_id": "op-0",
+          "session_owner": "session.user.7@iot.invalid",
+          "device_token": "dtok-synth-7-9-128",
+          "metric": 0.6799999999999999
+        },
+        {
+          "operator_id": "op-1",
+          "session_owner": "session.user.7@iot.invalid",
+          "device_token": "dtok-synth-7-10-129",
+          "metric": 0.7
+        },
+        {
+          "operator_id": "op-2",
+          "session_owner": "session.user.7@iot.invalid",
+          "device_token": "dtok-synth-7-11-130",
+          "metric": 0.72
+        }
+      ]
+    },
+    {
+      "device": "iot-dev-8",
+      "points": [
+        {
+          "operator_id": "op-0",
+          "session_owner": "session.user.8@iot.invalid",
+          "device_token": "dtok-synth-8-0-136",
+          "metric": 0.5
+        },
+        {
+          "operator_id": "op-1",
+          "session_owner": "session.user.8@iot.invalid",
+          "device_token": "dtok-synth-8-1-137",
+          "metric": 0.52
+        },
+        {
+          "operator_id": "op-2",
+          "session_owner": "session.user.8@iot.invalid",
+          "device_token": "dtok-synth-8-2-138",
+          "metric": 0.54
+        },
+        {
+          "operator_id": "op-3",
+          "session_owner": "session.user.8@iot.invalid",
+          "device_token": "dtok-synth-8-3-139",
+          "metric": 0.56
+        },
+        {
+          "operator_id": "op-4",
+          "session_owner": "session.user.8@iot.invalid",
+          "device_token": "dtok-synth-8-4-140",
+          "metric": 0.58
+        },
+        {
+          "operator_id": "op-5",
+          "session_owner": "session.user.8@iot.invalid",
+          "device_token": "dtok-synth-8-5-141",
+          "metric": 0.6
+        },
+        {
+          "operator_id": "op-6",
+          "session_owner": "session.user.8@iot.invalid",
+          "device_token": "dtok-synth-8-6-142",
+          "metric": 0.62
+        },
+        {
+          "operator_id": "op-7",
+          "session_owner": "session.user.8@iot.invalid",
+          "device_token": "dtok-synth-8-7-143",
+          "metric": 0.64
+        },
+        {
+          "operator_id": "op-0",
+          "session_owner": "session.user.8@iot.invalid",
+          "device_token": "dtok-synth-8-8-144",
+          "metric": 0.66
+        },
+        {
+          "operator_id": "op-1",
+          "session_owner": "session.user.8@iot.invalid",
+          "device_token": "dtok-synth-8-9-145",
+          "metric": 0.6799999999999999
+        },
+        {
+          "operator_id": "op-2",
+          "session_owner": "session.user.8@iot.invalid",
+          "device_token": "dtok-synth-8-10-146",
+          "metric": 0.7
+        },
+        {
+          "operator_id": "op-3",
+          "session_owner": "session.user.8@iot.invalid",
+          "device_token": "dtok-synth-8-11-147",
+          "metric": 0.72
+        }
+      ]
+    },
+    {
+      "device": "iot-dev-9",
+      "points": [
+        {
+          "operator_id": "op-1",
+          "session_owner": "session.user.9@iot.invalid",
+          "device_token": "dtok-synth-9-0-153",
+          "metric": 0.5
+        },
+        {
+          "operator_id": "op-2",
+          "session_owner": "session.user.9@iot.invalid",
+          "device_token": "dtok-synth-9-1-154",
+          "metric": 0.52
+        },
+        {
+          "operator_id": "op-3",
+          "session_owner": "session.user.9@iot.invalid",
+          "device_token": "dtok-synth-9-2-155",
+          "metric": 0.54
+        },
+        {
+          "operator_id": "op-4",
+          "session_owner": "session.user.9@iot.invalid",
+          "device_token": "dtok-synth-9-3-156",
+          "metric": 0.56
+        },
+        {
+          "operator_id": "op-5",
+          "session_owner": "session.user.9@iot.invalid",
+          "device_token": "dtok-synth-9-4-157",
+          "metric": 0.58
+        },
+        {
+          "operator_id": "op-6",
+          "session_owner": "session.user.9@iot.invalid",
+          "device_token": "dtok-synth-9-5-158",
+          "metric": 0.6
+        },
+        {
+          "operator_id": "op-7",
+          "session_owner": "session.user.9@iot.invalid",
+          "device_token": "dtok-synth-9-6-159",
+          "metric": 0.62
+        },
+        {
+          "operator_id": "op-0",
+          "session_owner": "session.user.9@iot.invalid",
+          "device_token": "dtok-synth-9-7-160",
+          "metric": 0.64
+        },
+        {
+          "operator_id": "op-1",
+          "session_owner": "session.user.9@iot.invalid",
+          "device_token": "dtok-synth-9-8-161",
+          "metric": 0.66
+        },
+        {
+          "operator_id": "op-2",
+          "session_owner": "session.user.9@iot.invalid",
+          "device_token": "dtok-synth-9-9-162",
+          "metric": 0.6799999999999999
+        },
+        {
+          "operator_id": "op-3",
+          "session_owner": "session.user.9@iot.invalid",
+          "device_token": "dtok-synth-9-10-163",
+          "metric": 0.7
+        },
+        {
+          "operator_id": "op-4",
+          "session_owner": "session.user.9@iot.invalid",
+          "device_token": "dtok-synth-9-11-164",
+          "metric": 0.72
+        }
+      ]
+    },
+    {
+      "device": "iot-dev-10",
+      "points": [
+        {
+          "operator_id": "op-2",
+          "session_owner": "session.user.10@iot.invalid",
+          "device_token": "dtok-synth-10-0-170",
+          "metric": 0.5
+        },
+        {
+          "operator_id": "op-3",
+          "session_owner": "session.user.10@iot.invalid",
+          "device_token": "dtok-synth-10-1-171",
+          "metric": 0.52
+        },
+        {
+          "operator_id": "op-4",
+          "session_owner": "session.user.10@iot.invalid",
+          "device_token": "dtok-synth-10-2-172",
+          "metric": 0.54
+        },
+        {
+          "operator_id": "op-5",
+          "session_owner": "session.user.10@iot.invalid",
+          "device_token": "dtok-synth-10-3-173",
+          "metric": 0.56
+        },
+        {
+          "operator_id": "op-6",
+          "session_owner": "session.user.10@iot.invalid",
+          "device_token": "dtok-synth-10-4-174",
+          "metric": 0.58
+        },
+        {
+          "operator_id": "op-7",
+          "session_owner": "session.user.10@iot.invalid",
+          "device_token": "dtok-synth-10-5-175",
+          "metric": 0.6
+        },
+        {
+          "operator_id": "op-0",
+          "session_owner": "session.user.10@iot.invalid",
+          "device_token": "dtok-synth-10-6-176",
+          "metric": 0.62
+        },
+        {
+          "operator_id": "op-1",
+          "session_owner": "session.user.10@iot.invalid",
+          "device_token": "dtok-synth-10-7-177",
+          "metric": 0.64
+        },
+        {
+          "operator_id": "op-2",
+          "session_owner": "session.user.10@iot.invalid",
+          "device_token": "dtok-synth-10-8-178",
+          "metric": 0.66
+        },
+        {
+          "operator_id": "op-3",
+          "session_owner": "session.user.10@iot.invalid",
+          "device_token": "dtok-synth-10-9-179",
+          "metric": 0.6799999999999999
+        },
+        {
+          "operator_id": "op-4",
+          "session_owner": "session.user.10@iot.invalid",
+          "device_token": "dtok-synth-10-10-180",
+          "metric": 0.7
+        },
+        {
+          "operator_id": "op-5",
+          "session_owner": "session.user.10@iot.invalid",
+          "device_token": "dtok-synth-10-11-181",
+          "metric": 0.72
+        }
+      ]
+    },
+    {
+      "device": "iot-dev-11",
+      "points": [
+        {
+          "operator_id": "op-3",
+          "session_owner": "session.user.11@iot.invalid",
+          "device_token": "dtok-synth-11-0-187",
+          "metric": 0.5
+        },
+        {
+          "operator_id": "op-4",
+          "session_owner": "session.user.11@iot.invalid",
+          "device_token": "dtok-synth-11-1-188",
+          "metric": 0.52
+        },
+        {
+          "operator_id": "op-5",
+          "session_owner": "session.user.11@iot.invalid",
+          "device_token": "dtok-synth-11-2-189",
+          "metric": 0.54
+        },
+        {
+          "operator_id": "op-6",
+          "session_owner": "session.user.11@iot.invalid",
+          "device_token": "dtok-synth-11-3-190",
+          "metric": 0.56
+        },
+        {
+          "operator_id": "op-7",
+          "session_owner": "session.user.11@iot.invalid",
+          "device_token": "dtok-synth-11-4-191",
+          "metric": 0.58
+        },
+        {
+          "operator_id": "op-0",
+          "session_owner": "session.user.11@iot.invalid",
+          "device_token": "dtok-synth-11-5-192",
+          "metric": 0.6
+        },
+        {
+          "operator_id": "op-1",
+          "session_owner": "session.user.11@iot.invalid",
+          "device_token": "dtok-synth-11-6-193",
+          "metric": 0.62
+        },
+        {
+          "operator_id": "op-2",
+          "session_owner": "session.user.11@iot.invalid",
+          "device_token": "dtok-synth-11-7-194",
+          "metric": 0.64
+        },
+        {
+          "operator_id": "op-3",
+          "session_owner": "session.user.11@iot.invalid",
+          "device_token": "dtok-synth-11-8-195",
+          "metric": 0.66
+        },
+        {
+          "operator_id": "op-4",
+          "session_owner": "session.user.11@iot.invalid",
+          "device_token": "dtok-synth-11-9-196",
+          "metric": 0.6799999999999999
+        },
+        {
+          "operator_id": "op-5",
+          "session_owner": "session.user.11@iot.invalid",
+          "device_token": "dtok-synth-11-10-197",
+          "metric": 0.7
+        },
+        {
+          "operator_id": "op-6",
+          "session_owner": "session.user.11@iot.invalid",
+          "device_token": "dtok-synth-11-11-198",
+          "metric": 0.72
+        }
+      ]
+    },
+    {
+      "device": "iot-dev-12",
+      "points": [
+        {
+          "operator_id": "op-4",
+          "session_owner": "session.user.12@iot.invalid",
+          "device_token": "dtok-synth-12-0-204",
+          "metric": 0.5
+        },
+        {
+          "operator_id": "op-5",
+          "session_owner": "session.user.12@iot.invalid",
+          "device_token": "dtok-synth-12-1-205",
+          "metric": 0.52
+        },
+        {
+          "operator_id": "op-6",
+          "session_owner": "session.user.12@iot.invalid",
+          "device_token": "dtok-synth-12-2-206",
+          "metric": 0.54
+        },
+        {
+          "operator_id": "op-7",
+          "session_owner": "session.user.12@iot.invalid",
+          "device_token": "dtok-synth-12-3-207",
+          "metric": 0.56
+        },
+        {
+          "operator_id": "op-0",
+          "session_owner": "session.user.12@iot.invalid",
+          "device_token": "dtok-synth-12-4-208",
+          "metric": 0.58
+        },
+        {
+          "operator_id": "op-1",
+          "session_owner": "session.user.12@iot.invalid",
+          "device_token": "dtok-synth-12-5-209",
+          "metric": 0.6
+        },
+        {
+          "operator_id": "op-2",
+          "session_owner": "session.user.12@iot.invalid",
+          "device_token": "dtok-synth-12-6-210",
+          "metric": 0.62
+        },
+        {
+          "operator_id": "op-3",
+          "session_owner": "session.user.12@iot.invalid",
+          "device_token": "dtok-synth-12-7-211",
+          "metric": 0.64
+        },
+        {
+          "operator_id": "op-4",
+          "session_owner": "session.user.12@iot.invalid",
+          "device_token": "dtok-synth-12-8-212",
+          "metric": 0.66
+        },
+        {
+          "operator_id": "op-5",
+          "session_owner": "session.user.12@iot.invalid",
+          "device_token": "dtok-synth-12-9-213",
+          "metric": 0.6799999999999999
+        },
+        {
+          "operator_id": "op-6",
+          "session_owner": "session.user.12@iot.invalid",
+          "device_token": "dtok-synth-12-10-214",
+          "metric": 0.7
+        },
+        {
+          "operator_id": "op-7",
+          "session_owner": "session.user.12@iot.invalid",
+          "device_token": "dtok-synth-12-11-215",
+          "metric": 0.72
+        }
+      ]
+    },
+    {
+      "device": "iot-dev-13",
+      "points": [
+        {
+          "operator_id": "op-5",
+          "session_owner": "session.user.13@iot.invalid",
+          "device_token": "dtok-synth-13-0-221",
+          "metric": 0.5
+        },
+        {
+          "operator_id": "op-6",
+          "session_owner": "session.user.13@iot.invalid",
+          "device_token": "dtok-synth-13-1-222",
+          "metric": 0.52
+        },
+        {
+          "operator_id": "op-7",
+          "session_owner": "session.user.13@iot.invalid",
+          "device_token": "dtok-synth-13-2-223",
+          "metric": 0.54
+        },
+        {
+          "operator_id": "op-0",
+          "session_owner": "session.user.13@iot.invalid",
+          "device_token": "dtok-synth-13-3-224",
+          "metric": 0.56
+        },
+        {
+          "operator_id": "op-1",
+          "session_owner": "session.user.13@iot.invalid",
+          "device_token": "dtok-synth-13-4-225",
+          "metric": 0.58
+        },
+        {
+          "operator_id": "op-2",
+          "session_owner": "session.user.13@iot.invalid",
+          "device_token": "dtok-synth-13-5-226",
+          "metric": 0.6
+        },
+        {
+          "operator_id": "op-3",
+          "session_owner": "session.user.13@iot.invalid",
+          "device_token": "dtok-synth-13-6-227",
+          "metric": 0.62
+        },
+        {
+          "operator_id": "op-4",
+          "session_owner": "session.user.13@iot.invalid",
+          "device_token": "dtok-synth-13-7-228",
+          "metric": 0.64
+        },
+        {
+          "operator_id": "op-5",
+          "session_owner": "session.user.13@iot.invalid",
+          "device_token": "dtok-synth-13-8-229",
+          "metric": 0.66
+        },
+        {
+          "operator_id": "op-6",
+          "session_owner": "session.user.13@iot.invalid",
+          "device_token": "dtok-synth-13-9-230",
+          "metric": 0.6799999999999999
+        },
+        {
+          "operator_id": "op-7",
+          "session_owner": "session.user.13@iot.invalid",
+          "device_token": "dtok-synth-13-10-231",
+          "metric": 0.7
+        },
+        {
+          "operator_id": "op-0",
+          "session_owner": "session.user.13@iot.invalid",
+          "device_token": "dtok-synth-13-11-232",
+          "metric": 0.72
+        }
+      ]
+    },
+    {
+      "device": "iot-dev-14",
+      "points": [
+        {
+          "operator_id": "op-6",
+          "session_owner": "session.user.14@iot.invalid",
+          "device_token": "dtok-synth-14-0-238",
+          "metric": 0.5
+        },
+        {
+          "operator_id": "op-7",
+          "session_owner": "session.user.14@iot.invalid",
+          "device_token": "dtok-synth-14-1-239",
+          "metric": 0.52
+        },
+        {
+          "operator_id": "op-0",
+          "session_owner": "session.user.14@iot.invalid",
+          "device_token": "dtok-synth-14-2-240",
+          "metric": 0.54
+        },
+        {
+          "operator_id": "op-1",
+          "session_owner": "session.user.14@iot.invalid",
+          "device_token": "dtok-synth-14-3-241",
+          "metric": 0.56
+        },
+        {
+          "operator_id": "op-2",
+          "session_owner": "session.user.14@iot.invalid",
+          "device_token": "dtok-synth-14-4-242",
+          "metric": 0.58
+        },
+        {
+          "operator_id": "op-3",
+          "session_owner": "session.user.14@iot.invalid",
+          "device_token": "dtok-synth-14-5-243",
+          "metric": 0.6
+        },
+        {
+          "operator_id": "op-4",
+          "session_owner": "session.user.14@iot.invalid",
+          "device_token": "dtok-synth-14-6-244",
+          "metric": 0.62
+        },
+        {
+          "operator_id": "op-5",
+          "session_owner": "session.user.14@iot.invalid",
+          "device_token": "dtok-synth-14-7-245",
+          "metric": 0.64
+        },
+        {
+          "operator_id": "op-6",
+          "session_owner": "session.user.14@iot.invalid",
+          "device_token": "dtok-synth-14-8-246",
+          "metric": 0.66
+        },
+        {
+          "operator_id": "op-7",
+          "session_owner": "session.user.14@iot.invalid",
+          "device_token": "dtok-synth-14-9-247",
+          "metric": 0.6799999999999999
+        },
+        {
+          "operator_id": "op-0",
+          "session_owner": "session.user.14@iot.invalid",
+          "device_token": "dtok-synth-14-10-248",
+          "metric": 0.7
+        },
+        {
+          "operator_id": "op-1",
+          "session_owner": "session.user.14@iot.invalid",
+          "device_token": "dtok-synth-14-11-249",
+          "metric": 0.72
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "records": [
+    {
+      "resource": { "service.name": "checkout-public-example", "deployment.environment": "test" },
+      "traceId": "00000000000000000000000000000001",
+      "spanId": "0000000000000001",
+      "parentSpanId": null,
+      "name": "HTTP GET /synthetic",
+      "kind": "SERVER",
+      "startTimeUnixNano": "1767225600000000000",
+      "endTimeUnixNano": "1767225600100000000",
+      "attributes": { "http.method": "GET", "http.route": "/synthetic", "http.status_code": 200 },
+      "status": { "code": "OK" }
+    },
+    {
+      "resource": { "service.name": "inventory-public-example", "deployment.environment": "test" },
+      "traceId": "00000000000000000000000000000002",
+      "spanId": "0000000000000002",
+      "parentSpanId": "0000000000000001",
+      "name": "SELECT synthetic_items",
+      "kind": "CLIENT",
+      "startTimeUnixNano": "1767225600100000000",
+      "endTimeUnixNano": "1767225600200000000",
+      "attributes": { "db.system": "postgresql", "db.operation": "SELECT", "net.peer.name": "db.example.invalid" },
+      "status": { "code": "OK" }
+    }
+  ]
+}

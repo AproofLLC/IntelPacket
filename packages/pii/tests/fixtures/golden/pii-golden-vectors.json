@@ -1,0 +1,121 @@
+[
+  {
+    "name": "policy-covered fake pii packet",
+    "input": {
+      "id": "fixture-1",
+      "email": "fixture.user@example.invalid",
+      "account_id": "acct_fixture_001",
+      "legal_name": "Fixture User",
+      "phone": "555-010-9999",
+      "ssn": "123-45-6789",
+      "internal_note": "synthetic private note",
+      "role": "tester"
+    },
+    "policy": {
+      "version": "v1",
+      "mode": "fail-closed",
+      "redact": [
+        "ssn",
+        "internal_note"
+      ],
+      "mask": [
+        "phone"
+      ],
+      "tokenize": [
+        "email",
+        "account_id"
+      ],
+      "hmac": [
+        "legal_name"
+      ],
+      "allow": [
+        "id",
+        "email",
+        "account_id",
+        "legal_name",
+        "phone",
+        "ssn",
+        "internal_note",
+        "role"
+      ]
+    },
+    "expectedProtectedData": {
+      "id": "fixture-1",
+      "email": "tok_email_22a7d1eeac5412d7",
+      "account_id": "tok_account_id_4f6e53e57ec87642",
+      "legal_name": "hmac_legal_name_d0e2e933c2912572",
+      "phone": "***-***-9999",
+      "ssn": "[REDACTED]",
+      "internal_note": "[REDACTED]",
+      "role": "tester"
+    },
+    "expectedPrivacyReport": {
+      "policy_version": "v1",
+      "mode": "fail-closed",
+      "pii_spec_version": "1",
+      "raw_pii_present": false,
+      "fields_detected": [
+        {
+          "path": "email",
+          "field": "email",
+          "category": "email",
+          "detection": "field_name",
+          "actionRequired": true
+        },
+        {
+          "path": "legal_name",
+          "field": "legal_name",
+          "category": "name",
+          "detection": "field_name",
+          "actionRequired": true
+        },
+        {
+          "path": "phone",
+          "field": "phone",
+          "category": "phone",
+          "detection": "field_name",
+          "actionRequired": true
+        },
+        {
+          "path": "ssn",
+          "field": "ssn",
+          "category": "ssn",
+          "detection": "field_name",
+          "actionRequired": true
+        }
+      ],
+      "fields_redacted": [
+        "ssn",
+        "internal_note"
+      ],
+      "fields_masked": [
+        "phone"
+      ],
+      "fields_tokenized": [
+        "email",
+        "account_id"
+      ],
+      "fields_hmac": [
+        "legal_name"
+      ],
+      "fields_removed": [],
+      "unhandled_sensitive_fields": [],
+      "denied_fields": [],
+      "allowed_fields": [
+        "id",
+        "email",
+        "account_id",
+        "legal_name",
+        "phone",
+        "ssn",
+        "internal_note",
+        "role"
+      ],
+      "transform_count": 6,
+      "safe_for_packetization": true
+    },
+    "expectedPacketHash": "61af986613ae25eda5a9b7982f31e3b96144267097819dbb21bc567e1fc51f29",
+    "expectedSpecVersion": "1",
+    "expectedIpVersion": "1"
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "name": "flat object with shuffled keys",
+    "input": {
+      "alpha": "A",
+      "beta": null,
+      "count": 3,
+      "zeta": true
+    },
+    "options": {
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "disableCompression": true
+    },
+    "expectedCanonicalString": "{\"alpha\":\"A\",\"beta\":null,\"count\":3,\"zeta\":true}",
+    "expectedPacketHash": "094447e01b9736163edc42849e992112c34968d909dc42ff7ece89ac0e78507e",
+    "expectedSpecVersion": "1",
+    "expectedIpVersion": "1",
+    "expectedReplayCanonical": "{\"alpha\":\"A\",\"beta\":null,\"count\":3,\"zeta\":true}"
+  },
+  {
+    "name": "nested object",
+    "input": {
+      "event_type": "login",
+      "metadata": {
+        "device": {
+          "os": "test-os",
+          "version": 1
+        },
+        "region": "us-test-1"
+      },
+      "user_id": "user-0001"
+    },
+    "options": {
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "disableCompression": true
+    },
+    "expectedCanonicalString": "{\"event_type\":\"login\",\"metadata\":{\"device\":{\"os\":\"test-os\",\"version\":1},\"region\":\"us-test-1\"},\"user_id\":\"user-0001\"}",
+    "expectedPacketHash": "d43af7ba52fc076a138e84a0d10cb862ea6d03ab253b5a209b9f4f89cf1a517d",
+    "expectedSpecVersion": "1",
+    "expectedIpVersion": "1",
+    "expectedReplayCanonical": "{\"event_type\":\"login\",\"metadata\":{\"device\":{\"os\":\"test-os\",\"version\":1},\"region\":\"us-test-1\"},\"user_id\":\"user-0001\"}"
+  },
+  {
+    "name": "repeated structures for dedupe",
+    "input": {
+      "rows": [
+        {
+          "kind": "metric",
+          "metadata": {
+            "host": "h1"
+          },
+          "values": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "kind": "metric",
+          "metadata": {
+            "host": "h1"
+          },
+          "values": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "kind": "metric",
+          "metadata": {
+            "host": "h1"
+          },
+          "values": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    "options": {
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "disableCompression": true
+    },
+    "expectedCanonicalString": "{\"rows\":[{\"kind\":\"metric\",\"metadata\":{\"host\":\"h1\"},\"values\":[1,2,3]},{\"kind\":\"metric\",\"metadata\":{\"host\":\"h1\"},\"values\":[1,2,3]},{\"kind\":\"metric\",\"metadata\":{\"host\":\"h1\"},\"values\":[1,2,3]}]}",
+    "expectedPacketHash": "03294e4ef1145479a2c56f1c4456cbade947208ba599268329e68bb9730c8ea7",
+    "expectedSpecVersion": "1",
+    "expectedIpVersion": "1",
+    "expectedReplayCanonical": "{\"rows\":[{\"kind\":\"metric\",\"metadata\":{\"host\":\"h1\"},\"values\":[1,2,3]},{\"kind\":\"metric\",\"metadata\":{\"host\":\"h1\"},\"values\":[1,2,3]},{\"kind\":\"metric\",\"metadata\":{\"host\":\"h1\"},\"values\":[1,2,3]}]}"
+  },
+  {
+    "name": "array order sensitivity",
+    "input": {
+      "ordered": [
+        "first",
+        "second",
+        "third"
+      ],
+      "weights": [
+        3,
+        2,
+        1
+      ]
+    },
+    "options": {
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "disableCompression": true
+    },
+    "expectedCanonicalString": "{\"ordered\":[\"first\",\"second\",\"third\"],\"weights\":[3,2,1]}",
+    "expectedPacketHash": "b4db57a8b1651ea07041a0ff0d68dc5b17a4f1f8957818a3bdc27baf895392b4",
+    "expectedSpecVersion": "1",
+    "expectedIpVersion": "1",
+    "expectedReplayCanonical": "{\"ordered\":[\"first\",\"second\",\"third\"],\"weights\":[3,2,1]}"
+  },
+  {
+    "name": "numeric string date normalization case",
+    "input": {
+      "active": false,
+      "amount": 123.45,
+      "amount_text": 123.45,
+      "created_at": "2026-01-01T12:34:56.789Z"
+    },
+    "options": {
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "disableCompression": true
+    },
+    "expectedCanonicalString": "{\"active\":false,\"amount\":123.45,\"amount_text\":123.45,\"created_at\":\"2026-01-01T12:34:56.789Z\"}",
+    "expectedPacketHash": "eaa2eaab3c9238e15081e888a4b483fcb70b4a13f22fb6e0b14514c18b110ef0",
+    "expectedSpecVersion": "1",
+    "expectedIpVersion": "1",
+    "expectedReplayCanonical": "{\"active\":false,\"amount\":123.45,\"amount_text\":123.45,\"created_at\":\"2026-01-01T12:34:56.789Z\"}"
+  }
+]

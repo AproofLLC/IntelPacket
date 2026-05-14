@@ -1,0 +1,111 @@
+{
+  "specVersion": "1",
+  "generatedAt": "2026-05-14T15:03:54.418Z",
+  "environment": {
+    "node": "v22.22.0",
+    "platform": "win32",
+    "arch": "x64",
+    "packageName": "@intelpacket/core",
+    "packageVersion": "0.1.0"
+  },
+  "datasets": [
+    {
+      "dataset": "api-responses",
+      "rawBytes": 30797,
+      "canonicalBytes": 10212,
+      "packetBytes": 3712,
+      "compressedPayloadBytes": 900,
+      "reductionPercent": 91.1868,
+      "createMs": 2.373,
+      "replayMs": 1.331,
+      "verifyMs": 0.279,
+      "deterministicStable": true,
+      "replaySuccess": true,
+      "verifySuccess": true
+    },
+    {
+      "dataset": "app-logs",
+      "rawBytes": 44755,
+      "canonicalBytes": 30959,
+      "packetBytes": 2196,
+      "compressedPayloadBytes": 1361,
+      "reductionPercent": 95.6039,
+      "createMs": 2.876,
+      "replayMs": 1.708,
+      "verifyMs": 0.405,
+      "deterministicStable": true,
+      "replaySuccess": true,
+      "verifySuccess": true
+    },
+    {
+      "dataset": "audit-trails",
+      "rawBytes": 33880,
+      "canonicalBytes": 20161,
+      "packetBytes": 1955,
+      "compressedPayloadBytes": 1112,
+      "reductionPercent": 94.4844,
+      "createMs": 2.069,
+      "replayMs": 1.343,
+      "verifyMs": 0.304,
+      "deterministicStable": true,
+      "replaySuccess": true,
+      "verifySuccess": true
+    },
+    {
+      "dataset": "config-snapshots",
+      "rawBytes": 13843,
+      "canonicalBytes": 6664,
+      "packetBytes": 1280,
+      "compressedPayloadBytes": 525,
+      "reductionPercent": 92.1218,
+      "createMs": 1.209,
+      "replayMs": 0.623,
+      "verifyMs": 0.145,
+      "deterministicStable": true,
+      "replaySuccess": true,
+      "verifySuccess": true
+    },
+    {
+      "dataset": "otel-traces",
+      "rawBytes": 97662,
+      "canonicalBytes": 33986,
+      "packetBytes": 5502,
+      "compressedPayloadBytes": 1430,
+      "reductionPercent": 95.7924,
+      "createMs": 5.102,
+      "replayMs": 3.042,
+      "verifyMs": 0.627,
+      "deterministicStable": true,
+      "replaySuccess": true,
+      "verifySuccess": true
+    },
+    {
+      "dataset": "telemetry",
+      "rawBytes": 36318,
+      "canonicalBytes": 23582,
+      "packetBytes": 2492,
+      "compressedPayloadBytes": 1584,
+      "reductionPercent": 93.283,
+      "createMs": 2.272,
+      "replayMs": 1.433,
+      "verifyMs": 0.335,
+      "deterministicStable": true,
+      "replaySuccess": true,
+      "verifySuccess": true
+    },
+    {
+      "dataset": "transactions",
+      "rawBytes": 35024,
+      "canonicalBytes": 14269,
+      "packetBytes": 2330,
+      "compressedPayloadBytes": 1018,
+      "reductionPercent": 92.8657,
+      "createMs": 1.992,
+      "replayMs": 1.051,
+      "verifyMs": 0.212,
+      "deterministicStable": true,
+      "replaySuccess": true,
+      "verifySuccess": true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "intelpacket-suite",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Monorepo for @intelpacket/core and @intelpacket/pii — deterministic structured-data packetization and optional privacy preprocessing.",
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "typecheck": "corepack pnpm -r run typecheck",
+    "test": "corepack pnpm -r test",
+    "test:core": "corepack pnpm --filter @intelpacket/core test",
+    "test:pii": "corepack pnpm --filter @intelpacket/pii test",
+    "build": "corepack pnpm -r run build",
+    "build:core": "corepack pnpm --filter @intelpacket/core run build",
+    "build:pii": "corepack pnpm --filter @intelpacket/pii run build",
+    "bench:core": "corepack pnpm --filter @intelpacket/core run bench",
+    "bench:core:50x": "corepack pnpm --filter @intelpacket/core run bench:50x",
+    "bench:pii": "corepack pnpm --filter @intelpacket/pii run bench:pii",
+    "bench:core:realistic": "corepack pnpm --filter @intelpacket/core run bench:realistic",
+    "bench:pii:realistic": "corepack pnpm --filter @intelpacket/pii run bench:realistic",
+    "bench:realistic": "corepack pnpm run bench:core:realistic && corepack pnpm run bench:pii:realistic",
+    "bench:advanced": "corepack pnpm run bench:core:advanced && corepack pnpm run bench:pii:advanced",
+    "bench:core:advanced": "corepack pnpm --filter @intelpacket/core run bench:advanced",
+    "bench:pii:advanced": "corepack pnpm --filter @intelpacket/pii run bench:advanced",
+    "bench:advanced:100k": "corepack pnpm run bench:core:advanced -- --scale=100k && corepack pnpm run bench:pii:advanced -- --scale=100k",
+    "bench:advanced:strict:100k": "corepack pnpm run bench:core:advanced -- --scale=100k --strict-scale && corepack pnpm run bench:pii:advanced -- --scale=100k --strict-scale",
+    "pack:dry": "corepack pnpm -r exec npm pack --dry-run",
+    "test:integrity": "node scripts/verify-integrity.mjs",
+    "verify": "corepack pnpm run typecheck && corepack pnpm run test && corepack pnpm run build",
+    "verify:core": "corepack pnpm --filter @intelpacket/core run typecheck && corepack pnpm run test:core && corepack pnpm run build:core",
+    "verify:pii": "corepack pnpm --filter @intelpacket/pii run typecheck && corepack pnpm run test:pii && corepack pnpm run build:pii",
+    "verify:structure": "node scripts/verify-monorepo.mjs",
+    "verify:integrity": "corepack pnpm run verify:structure && corepack pnpm run test:integrity",
+    "verify:release": "corepack pnpm run verify && corepack pnpm run verify:structure && corepack pnpm run pack:dry"
+  },
+  "devDependencies": {
+    "@intelpacket/core": "workspace:*",
+    "@intelpacket/pii": "workspace:*",
+    "tsx": "^4.19.2",
+    "typescript": "^5.0.0"
+  }
+}

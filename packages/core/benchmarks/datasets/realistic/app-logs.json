@@ -1,0 +1,1805 @@
+{
+  "service": "edge-router",
+  "entries": [
+    {
+      "ts": "2026-01-10T10:00:00.000Z",
+      "level": "info",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=200",
+      "ctx": {
+        "trace_id": "tr-0",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T11:01:00.000Z",
+      "level": "warn",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=201",
+      "ctx": {
+        "trace_id": "tr-7919",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T12:02:00.000Z",
+      "level": "error",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=202",
+      "ctx": {
+        "trace_id": "tr-15838",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T13:03:00.000Z",
+      "level": "debug",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=200",
+      "ctx": {
+        "trace_id": "tr-23757",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T14:04:00.000Z",
+      "level": "info",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=201",
+      "ctx": {
+        "trace_id": "tr-31676",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T15:05:00.000Z",
+      "level": "warn",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=202",
+      "ctx": {
+        "trace_id": "tr-39595",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T16:06:00.000Z",
+      "level": "error",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=200",
+      "ctx": {
+        "trace_id": "tr-47514",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T17:07:00.000Z",
+      "level": "debug",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=201",
+      "ctx": {
+        "trace_id": "tr-55433",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T10:08:00.000Z",
+      "level": "info",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=202",
+      "ctx": {
+        "trace_id": "tr-63352",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T11:09:00.000Z",
+      "level": "warn",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=200",
+      "ctx": {
+        "trace_id": "tr-71271",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T12:10:00.000Z",
+      "level": "error",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=201",
+      "ctx": {
+        "trace_id": "tr-79190",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T13:11:00.000Z",
+      "level": "debug",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=202",
+      "ctx": {
+        "trace_id": "tr-87109",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T14:12:00.000Z",
+      "level": "info",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=200",
+      "ctx": {
+        "trace_id": "tr-95028",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T15:13:00.000Z",
+      "level": "warn",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=201",
+      "ctx": {
+        "trace_id": "tr-2947",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T16:14:00.000Z",
+      "level": "error",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=202",
+      "ctx": {
+        "trace_id": "tr-10866",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T17:15:00.000Z",
+      "level": "debug",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=200",
+      "ctx": {
+        "trace_id": "tr-18785",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T10:16:00.000Z",
+      "level": "info",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=201",
+      "ctx": {
+        "trace_id": "tr-26704",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T11:17:00.000Z",
+      "level": "warn",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=202",
+      "ctx": {
+        "trace_id": "tr-34623",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T12:18:00.000Z",
+      "level": "error",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=200",
+      "ctx": {
+        "trace_id": "tr-42542",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T13:19:00.000Z",
+      "level": "debug",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=201",
+      "ctx": {
+        "trace_id": "tr-50461",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T14:20:00.000Z",
+      "level": "info",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=202",
+      "ctx": {
+        "trace_id": "tr-58380",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T15:21:00.000Z",
+      "level": "warn",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=200",
+      "ctx": {
+        "trace_id": "tr-66299",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T16:22:00.000Z",
+      "level": "error",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=201",
+      "ctx": {
+        "trace_id": "tr-74218",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T17:23:00.000Z",
+      "level": "debug",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=202",
+      "ctx": {
+        "trace_id": "tr-82137",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T10:24:00.000Z",
+      "level": "info",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=200",
+      "ctx": {
+        "trace_id": "tr-90056",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T11:25:00.000Z",
+      "level": "warn",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=201",
+      "ctx": {
+        "trace_id": "tr-97975",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T12:26:00.000Z",
+      "level": "error",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=202",
+      "ctx": {
+        "trace_id": "tr-5894",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T13:27:00.000Z",
+      "level": "debug",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=200",
+      "ctx": {
+        "trace_id": "tr-13813",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T14:28:00.000Z",
+      "level": "info",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=201",
+      "ctx": {
+        "trace_id": "tr-21732",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T15:29:00.000Z",
+      "level": "warn",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=202",
+      "ctx": {
+        "trace_id": "tr-29651",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T16:30:00.000Z",
+      "level": "error",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=200",
+      "ctx": {
+        "trace_id": "tr-37570",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T17:31:00.000Z",
+      "level": "debug",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=201",
+      "ctx": {
+        "trace_id": "tr-45489",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T10:32:00.000Z",
+      "level": "info",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=202",
+      "ctx": {
+        "trace_id": "tr-53408",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T11:33:00.000Z",
+      "level": "warn",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=200",
+      "ctx": {
+        "trace_id": "tr-61327",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T12:34:00.000Z",
+      "level": "error",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=201",
+      "ctx": {
+        "trace_id": "tr-69246",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T13:35:00.000Z",
+      "level": "debug",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=202",
+      "ctx": {
+        "trace_id": "tr-77165",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T14:36:00.000Z",
+      "level": "info",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=200",
+      "ctx": {
+        "trace_id": "tr-85084",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T15:37:00.000Z",
+      "level": "warn",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=201",
+      "ctx": {
+        "trace_id": "tr-93003",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T16:38:00.000Z",
+      "level": "error",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=202",
+      "ctx": {
+        "trace_id": "tr-922",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T17:39:00.000Z",
+      "level": "debug",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=200",
+      "ctx": {
+        "trace_id": "tr-8841",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T10:40:00.000Z",
+      "level": "info",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=201",
+      "ctx": {
+        "trace_id": "tr-16760",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T11:41:00.000Z",
+      "level": "warn",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=202",
+      "ctx": {
+        "trace_id": "tr-24679",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T12:42:00.000Z",
+      "level": "error",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=200",
+      "ctx": {
+        "trace_id": "tr-32598",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T13:43:00.000Z",
+      "level": "debug",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=201",
+      "ctx": {
+        "trace_id": "tr-40517",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T14:44:00.000Z",
+      "level": "info",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=202",
+      "ctx": {
+        "trace_id": "tr-48436",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T15:45:00.000Z",
+      "level": "warn",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=200",
+      "ctx": {
+        "trace_id": "tr-56355",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T16:46:00.000Z",
+      "level": "error",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=201",
+      "ctx": {
+        "trace_id": "tr-64274",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T17:47:00.000Z",
+      "level": "debug",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=202",
+      "ctx": {
+        "trace_id": "tr-72193",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T10:48:00.000Z",
+      "level": "info",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=200",
+      "ctx": {
+        "trace_id": "tr-80112",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T11:49:00.000Z",
+      "level": "warn",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=201",
+      "ctx": {
+        "trace_id": "tr-88031",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T12:50:00.000Z",
+      "level": "error",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=202",
+      "ctx": {
+        "trace_id": "tr-95950",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T13:51:00.000Z",
+      "level": "debug",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=200",
+      "ctx": {
+        "trace_id": "tr-3869",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T14:52:00.000Z",
+      "level": "info",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=201",
+      "ctx": {
+        "trace_id": "tr-11788",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T15:53:00.000Z",
+      "level": "warn",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=202",
+      "ctx": {
+        "trace_id": "tr-19707",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T16:54:00.000Z",
+      "level": "error",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=200",
+      "ctx": {
+        "trace_id": "tr-27626",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T17:55:00.000Z",
+      "level": "debug",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=201",
+      "ctx": {
+        "trace_id": "tr-35545",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T10:56:00.000Z",
+      "level": "info",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=202",
+      "ctx": {
+        "trace_id": "tr-43464",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T11:57:00.000Z",
+      "level": "warn",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=200",
+      "ctx": {
+        "trace_id": "tr-51383",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T12:58:00.000Z",
+      "level": "error",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=201",
+      "ctx": {
+        "trace_id": "tr-59302",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T13:59:00.000Z",
+      "level": "debug",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=202",
+      "ctx": {
+        "trace_id": "tr-67221",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T14:00:00.000Z",
+      "level": "info",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=200",
+      "ctx": {
+        "trace_id": "tr-75140",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T15:01:00.000Z",
+      "level": "warn",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=201",
+      "ctx": {
+        "trace_id": "tr-83059",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T16:02:00.000Z",
+      "level": "error",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=202",
+      "ctx": {
+        "trace_id": "tr-90978",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T17:03:00.000Z",
+      "level": "debug",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=200",
+      "ctx": {
+        "trace_id": "tr-98897",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T10:04:00.000Z",
+      "level": "info",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=201",
+      "ctx": {
+        "trace_id": "tr-6816",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T11:05:00.000Z",
+      "level": "warn",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=202",
+      "ctx": {
+        "trace_id": "tr-14735",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T12:06:00.000Z",
+      "level": "error",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=200",
+      "ctx": {
+        "trace_id": "tr-22654",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T13:07:00.000Z",
+      "level": "debug",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=201",
+      "ctx": {
+        "trace_id": "tr-30573",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T14:08:00.000Z",
+      "level": "info",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=202",
+      "ctx": {
+        "trace_id": "tr-38492",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T15:09:00.000Z",
+      "level": "warn",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=200",
+      "ctx": {
+        "trace_id": "tr-46411",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T16:10:00.000Z",
+      "level": "error",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=201",
+      "ctx": {
+        "trace_id": "tr-54330",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T17:11:00.000Z",
+      "level": "debug",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=202",
+      "ctx": {
+        "trace_id": "tr-62249",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T10:12:00.000Z",
+      "level": "info",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=200",
+      "ctx": {
+        "trace_id": "tr-70168",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T11:13:00.000Z",
+      "level": "warn",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=201",
+      "ctx": {
+        "trace_id": "tr-78087",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T12:14:00.000Z",
+      "level": "error",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=202",
+      "ctx": {
+        "trace_id": "tr-86006",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T13:15:00.000Z",
+      "level": "debug",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=200",
+      "ctx": {
+        "trace_id": "tr-93925",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T14:16:00.000Z",
+      "level": "info",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=201",
+      "ctx": {
+        "trace_id": "tr-1844",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T15:17:00.000Z",
+      "level": "warn",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=202",
+      "ctx": {
+        "trace_id": "tr-9763",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T16:18:00.000Z",
+      "level": "error",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=200",
+      "ctx": {
+        "trace_id": "tr-17682",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T17:19:00.000Z",
+      "level": "debug",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=201",
+      "ctx": {
+        "trace_id": "tr-25601",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T10:20:00.000Z",
+      "level": "info",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=202",
+      "ctx": {
+        "trace_id": "tr-33520",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T11:21:00.000Z",
+      "level": "warn",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=200",
+      "ctx": {
+        "trace_id": "tr-41439",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T12:22:00.000Z",
+      "level": "error",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=201",
+      "ctx": {
+        "trace_id": "tr-49358",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T13:23:00.000Z",
+      "level": "debug",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=202",
+      "ctx": {
+        "trace_id": "tr-57277",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T14:24:00.000Z",
+      "level": "info",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=200",
+      "ctx": {
+        "trace_id": "tr-65196",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T15:25:00.000Z",
+      "level": "warn",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=201",
+      "ctx": {
+        "trace_id": "tr-73115",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T16:26:00.000Z",
+      "level": "error",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=202",
+      "ctx": {
+        "trace_id": "tr-81034",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T17:27:00.000Z",
+      "level": "debug",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=200",
+      "ctx": {
+        "trace_id": "tr-88953",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T10:28:00.000Z",
+      "level": "info",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=201",
+      "ctx": {
+        "trace_id": "tr-96872",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T11:29:00.000Z",
+      "level": "warn",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=202",
+      "ctx": {
+        "trace_id": "tr-4791",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T12:30:00.000Z",
+      "level": "error",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=200",
+      "ctx": {
+        "trace_id": "tr-12710",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T13:31:00.000Z",
+      "level": "debug",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=201",
+      "ctx": {
+        "trace_id": "tr-20629",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T14:32:00.000Z",
+      "level": "info",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=202",
+      "ctx": {
+        "trace_id": "tr-28548",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T15:33:00.000Z",
+      "level": "warn",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=200",
+      "ctx": {
+        "trace_id": "tr-36467",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T16:34:00.000Z",
+      "level": "error",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=201",
+      "ctx": {
+        "trace_id": "tr-44386",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T17:35:00.000Z",
+      "level": "debug",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=202",
+      "ctx": {
+        "trace_id": "tr-52305",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T10:36:00.000Z",
+      "level": "info",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=200",
+      "ctx": {
+        "trace_id": "tr-60224",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T11:37:00.000Z",
+      "level": "warn",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=201",
+      "ctx": {
+        "trace_id": "tr-68143",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T12:38:00.000Z",
+      "level": "error",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=202",
+      "ctx": {
+        "trace_id": "tr-76062",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T13:39:00.000Z",
+      "level": "debug",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=200",
+      "ctx": {
+        "trace_id": "tr-83981",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T14:40:00.000Z",
+      "level": "info",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=201",
+      "ctx": {
+        "trace_id": "tr-91900",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T15:41:00.000Z",
+      "level": "warn",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=202",
+      "ctx": {
+        "trace_id": "tr-99819",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T16:42:00.000Z",
+      "level": "error",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=200",
+      "ctx": {
+        "trace_id": "tr-7738",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T17:43:00.000Z",
+      "level": "debug",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=201",
+      "ctx": {
+        "trace_id": "tr-15657",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T10:44:00.000Z",
+      "level": "info",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=202",
+      "ctx": {
+        "trace_id": "tr-23576",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T11:45:00.000Z",
+      "level": "warn",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=200",
+      "ctx": {
+        "trace_id": "tr-31495",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T12:46:00.000Z",
+      "level": "error",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=201",
+      "ctx": {
+        "trace_id": "tr-39414",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T13:47:00.000Z",
+      "level": "debug",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=202",
+      "ctx": {
+        "trace_id": "tr-47333",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T14:48:00.000Z",
+      "level": "info",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=200",
+      "ctx": {
+        "trace_id": "tr-55252",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T15:49:00.000Z",
+      "level": "warn",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=201",
+      "ctx": {
+        "trace_id": "tr-63171",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T16:50:00.000Z",
+      "level": "error",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=202",
+      "ctx": {
+        "trace_id": "tr-71090",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T17:51:00.000Z",
+      "level": "debug",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=200",
+      "ctx": {
+        "trace_id": "tr-79009",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T10:52:00.000Z",
+      "level": "info",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=201",
+      "ctx": {
+        "trace_id": "tr-86928",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T11:53:00.000Z",
+      "level": "warn",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=202",
+      "ctx": {
+        "trace_id": "tr-94847",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T12:54:00.000Z",
+      "level": "error",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=200",
+      "ctx": {
+        "trace_id": "tr-2766",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T13:55:00.000Z",
+      "level": "debug",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=201",
+      "ctx": {
+        "trace_id": "tr-10685",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T14:56:00.000Z",
+      "level": "info",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=202",
+      "ctx": {
+        "trace_id": "tr-18604",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T15:57:00.000Z",
+      "level": "warn",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=200",
+      "ctx": {
+        "trace_id": "tr-26523",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T16:58:00.000Z",
+      "level": "error",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=201",
+      "ctx": {
+        "trace_id": "tr-34442",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T17:59:00.000Z",
+      "level": "debug",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=202",
+      "ctx": {
+        "trace_id": "tr-42361",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T10:00:00.000Z",
+      "level": "info",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=200",
+      "ctx": {
+        "trace_id": "tr-50280",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T11:01:00.000Z",
+      "level": "warn",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=201",
+      "ctx": {
+        "trace_id": "tr-58199",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T12:02:00.000Z",
+      "level": "error",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=202",
+      "ctx": {
+        "trace_id": "tr-66118",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T13:03:00.000Z",
+      "level": "debug",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=200",
+      "ctx": {
+        "trace_id": "tr-74037",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T14:04:00.000Z",
+      "level": "info",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=201",
+      "ctx": {
+        "trace_id": "tr-81956",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T15:05:00.000Z",
+      "level": "warn",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=202",
+      "ctx": {
+        "trace_id": "tr-89875",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T16:06:00.000Z",
+      "level": "error",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=200",
+      "ctx": {
+        "trace_id": "tr-97794",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T17:07:00.000Z",
+      "level": "debug",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=201",
+      "ctx": {
+        "trace_id": "tr-5713",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T10:08:00.000Z",
+      "level": "info",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=202",
+      "ctx": {
+        "trace_id": "tr-13632",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T11:09:00.000Z",
+      "level": "warn",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=200",
+      "ctx": {
+        "trace_id": "tr-21551",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T12:10:00.000Z",
+      "level": "error",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=201",
+      "ctx": {
+        "trace_id": "tr-29470",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T13:11:00.000Z",
+      "level": "debug",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=202",
+      "ctx": {
+        "trace_id": "tr-37389",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T14:12:00.000Z",
+      "level": "info",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=200",
+      "ctx": {
+        "trace_id": "tr-45308",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T15:13:00.000Z",
+      "level": "warn",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=201",
+      "ctx": {
+        "trace_id": "tr-53227",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T16:14:00.000Z",
+      "level": "error",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=202",
+      "ctx": {
+        "trace_id": "tr-61146",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T17:15:00.000Z",
+      "level": "debug",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=200",
+      "ctx": {
+        "trace_id": "tr-69065",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T10:16:00.000Z",
+      "level": "info",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=201",
+      "ctx": {
+        "trace_id": "tr-76984",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T11:17:00.000Z",
+      "level": "warn",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=202",
+      "ctx": {
+        "trace_id": "tr-84903",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T12:18:00.000Z",
+      "level": "error",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=200",
+      "ctx": {
+        "trace_id": "tr-92822",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T13:19:00.000Z",
+      "level": "debug",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=201",
+      "ctx": {
+        "trace_id": "tr-741",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T14:20:00.000Z",
+      "level": "info",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=202",
+      "ctx": {
+        "trace_id": "tr-8660",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T15:21:00.000Z",
+      "level": "warn",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=200",
+      "ctx": {
+        "trace_id": "tr-16579",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T16:22:00.000Z",
+      "level": "error",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=201",
+      "ctx": {
+        "trace_id": "tr-24498",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T17:23:00.000Z",
+      "level": "debug",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=202",
+      "ctx": {
+        "trace_id": "tr-32417",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T10:24:00.000Z",
+      "level": "info",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=200",
+      "ctx": {
+        "trace_id": "tr-40336",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T11:25:00.000Z",
+      "level": "warn",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=201",
+      "ctx": {
+        "trace_id": "tr-48255",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T12:26:00.000Z",
+      "level": "error",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=202",
+      "ctx": {
+        "trace_id": "tr-56174",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T13:27:00.000Z",
+      "level": "debug",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=200",
+      "ctx": {
+        "trace_id": "tr-64093",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T14:28:00.000Z",
+      "level": "info",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=201",
+      "ctx": {
+        "trace_id": "tr-72012",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T15:29:00.000Z",
+      "level": "warn",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=202",
+      "ctx": {
+        "trace_id": "tr-79931",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T16:30:00.000Z",
+      "level": "error",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=200",
+      "ctx": {
+        "trace_id": "tr-87850",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T17:31:00.000Z",
+      "level": "debug",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=201",
+      "ctx": {
+        "trace_id": "tr-95769",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T10:32:00.000Z",
+      "level": "info",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=202",
+      "ctx": {
+        "trace_id": "tr-3688",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T11:33:00.000Z",
+      "level": "warn",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=200",
+      "ctx": {
+        "trace_id": "tr-11607",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T12:34:00.000Z",
+      "level": "error",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=201",
+      "ctx": {
+        "trace_id": "tr-19526",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T13:35:00.000Z",
+      "level": "debug",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=202",
+      "ctx": {
+        "trace_id": "tr-27445",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T14:36:00.000Z",
+      "level": "info",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=200",
+      "ctx": {
+        "trace_id": "tr-35364",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T15:37:00.000Z",
+      "level": "warn",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=201",
+      "ctx": {
+        "trace_id": "tr-43283",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T16:38:00.000Z",
+      "level": "error",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=202",
+      "ctx": {
+        "trace_id": "tr-51202",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T17:39:00.000Z",
+      "level": "debug",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=200",
+      "ctx": {
+        "trace_id": "tr-59121",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T10:40:00.000Z",
+      "level": "info",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=201",
+      "ctx": {
+        "trace_id": "tr-67040",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T11:41:00.000Z",
+      "level": "warn",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=202",
+      "ctx": {
+        "trace_id": "tr-74959",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T12:42:00.000Z",
+      "level": "error",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=200",
+      "ctx": {
+        "trace_id": "tr-82878",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T13:43:00.000Z",
+      "level": "debug",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=201",
+      "ctx": {
+        "trace_id": "tr-90797",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T14:44:00.000Z",
+      "level": "info",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=202",
+      "ctx": {
+        "trace_id": "tr-98716",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T15:45:00.000Z",
+      "level": "warn",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=200",
+      "ctx": {
+        "trace_id": "tr-6635",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T16:46:00.000Z",
+      "level": "error",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=201",
+      "ctx": {
+        "trace_id": "tr-14554",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T17:47:00.000Z",
+      "level": "debug",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=202",
+      "ctx": {
+        "trace_id": "tr-22473",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T10:48:00.000Z",
+      "level": "info",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=200",
+      "ctx": {
+        "trace_id": "tr-30392",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T11:49:00.000Z",
+      "level": "warn",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=201",
+      "ctx": {
+        "trace_id": "tr-38311",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T12:50:00.000Z",
+      "level": "error",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=202",
+      "ctx": {
+        "trace_id": "tr-46230",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T13:51:00.000Z",
+      "level": "debug",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=200",
+      "ctx": {
+        "trace_id": "tr-54149",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T14:52:00.000Z",
+      "level": "info",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=201",
+      "ctx": {
+        "trace_id": "tr-62068",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T15:53:00.000Z",
+      "level": "warn",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=202",
+      "ctx": {
+        "trace_id": "tr-69987",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T16:54:00.000Z",
+      "level": "error",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=200",
+      "ctx": {
+        "trace_id": "tr-77906",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T17:55:00.000Z",
+      "level": "debug",
+      "service": "api-gateway",
+      "msg": "request_completed path=/api/v1/0/action status=201",
+      "ctx": {
+        "trace_id": "tr-85825",
+        "shard": 3
+      }
+    },
+    {
+      "ts": "2026-01-10T10:56:00.000Z",
+      "level": "info",
+      "service": "billing-svc",
+      "msg": "request_completed path=/api/v1/1/action status=202",
+      "ctx": {
+        "trace_id": "tr-93744",
+        "shard": 0
+      }
+    },
+    {
+      "ts": "2026-01-10T11:57:00.000Z",
+      "level": "warn",
+      "service": "auth-svc",
+      "msg": "request_completed path=/api/v1/2/action status=200",
+      "ctx": {
+        "trace_id": "tr-1663",
+        "shard": 1
+      }
+    },
+    {
+      "ts": "2026-01-10T12:58:00.000Z",
+      "level": "error",
+      "service": "search-svc",
+      "msg": "request_completed path=/api/v1/3/action status=201",
+      "ctx": {
+        "trace_id": "tr-9582",
+        "shard": 2
+      }
+    },
+    {
+      "ts": "2026-01-10T13:59:00.000Z",
+      "level": "debug",
+      "service": "notify-svc",
+      "msg": "request_completed path=/api/v1/4/action status=202",
+      "ctx": {
+        "trace_id": "tr-17501",
+        "shard": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+name: Release check
+
+on:
+  workflow_dispatch:
+
+jobs:
+  release-readiness:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "pnpm"
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Full verify
+        run: pnpm run verify
+
+      - name: Monorepo structure
+        run: pnpm run verify:structure
+
+      - name: npm pack dry-run
+        run: pnpm run pack:dry
+
+      - name: Print package versions
+        run: node .github/scripts/print-package-versions.mjs
+
+      - name: Publish readiness note
+        run: |
+          echo "::notice::Release check passed. Publishing is manual: run pnpm publish from packages/core, then packages/pii (no secrets or auto-publish in this workflow)."

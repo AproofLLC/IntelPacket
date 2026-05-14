@@ -1,0 +1,784 @@
+{
+  "records": [
+    {
+      "user_id": "usr-synth-0",
+      "legal_name": "Synthetic Person 0",
+      "contact_email": "person0@test.invalid",
+      "mobile": "555-200-0000",
+      "national_id": "SYN-ID-100000",
+      "address": {
+        "line1": "100 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10000"
+      }
+    },
+    {
+      "user_id": "usr-synth-1",
+      "legal_name": "Synthetic Person 1",
+      "contact_email": "person1@test.invalid",
+      "mobile": "555-200-0001",
+      "national_id": "SYN-ID-100001",
+      "address": {
+        "line1": "101 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10001"
+      }
+    },
+    {
+      "user_id": "usr-synth-2",
+      "legal_name": "Synthetic Person 2",
+      "contact_email": "person2@test.invalid",
+      "mobile": "555-200-0002",
+      "national_id": "SYN-ID-100002",
+      "address": {
+        "line1": "102 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10002"
+      }
+    },
+    {
+      "user_id": "usr-synth-3",
+      "legal_name": "Synthetic Person 3",
+      "contact_email": "person3@test.invalid",
+      "mobile": "555-200-0003",
+      "national_id": "SYN-ID-100003",
+      "address": {
+        "line1": "103 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10003"
+      }
+    },
+    {
+      "user_id": "usr-synth-4",
+      "legal_name": "Synthetic Person 4",
+      "contact_email": "person4@test.invalid",
+      "mobile": "555-200-0004",
+      "national_id": "SYN-ID-100004",
+      "address": {
+        "line1": "104 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10004"
+      }
+    },
+    {
+      "user_id": "usr-synth-5",
+      "legal_name": "Synthetic Person 5",
+      "contact_email": "person5@test.invalid",
+      "mobile": "555-200-0005",
+      "national_id": "SYN-ID-100005",
+      "address": {
+        "line1": "105 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10005"
+      }
+    },
+    {
+      "user_id": "usr-synth-6",
+      "legal_name": "Synthetic Person 6",
+      "contact_email": "person6@test.invalid",
+      "mobile": "555-200-0006",
+      "national_id": "SYN-ID-100006",
+      "address": {
+        "line1": "106 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10006"
+      }
+    },
+    {
+      "user_id": "usr-synth-7",
+      "legal_name": "Synthetic Person 7",
+      "contact_email": "person7@test.invalid",
+      "mobile": "555-200-0007",
+      "national_id": "SYN-ID-100007",
+      "address": {
+        "line1": "107 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10007"
+      }
+    },
+    {
+      "user_id": "usr-synth-8",
+      "legal_name": "Synthetic Person 8",
+      "contact_email": "person8@test.invalid",
+      "mobile": "555-200-0008",
+      "national_id": "SYN-ID-100008",
+      "address": {
+        "line1": "108 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10008"
+      }
+    },
+    {
+      "user_id": "usr-synth-9",
+      "legal_name": "Synthetic Person 9",
+      "contact_email": "person9@test.invalid",
+      "mobile": "555-200-0009",
+      "national_id": "SYN-ID-100009",
+      "address": {
+        "line1": "109 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10009"
+      }
+    },
+    {
+      "user_id": "usr-synth-10",
+      "legal_name": "Synthetic Person 10",
+      "contact_email": "person10@test.invalid",
+      "mobile": "555-200-0010",
+      "national_id": "SYN-ID-100010",
+      "address": {
+        "line1": "110 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10010"
+      }
+    },
+    {
+      "user_id": "usr-synth-11",
+      "legal_name": "Synthetic Person 11",
+      "contact_email": "person11@test.invalid",
+      "mobile": "555-200-0011",
+      "national_id": "SYN-ID-100011",
+      "address": {
+        "line1": "111 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10011"
+      }
+    },
+    {
+      "user_id": "usr-synth-12",
+      "legal_name": "Synthetic Person 12",
+      "contact_email": "person12@test.invalid",
+      "mobile": "555-200-0012",
+      "national_id": "SYN-ID-100012",
+      "address": {
+        "line1": "112 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10012"
+      }
+    },
+    {
+      "user_id": "usr-synth-13",
+      "legal_name": "Synthetic Person 13",
+      "contact_email": "person13@test.invalid",
+      "mobile": "555-200-0013",
+      "national_id": "SYN-ID-100013",
+      "address": {
+        "line1": "113 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10013"
+      }
+    },
+    {
+      "user_id": "usr-synth-14",
+      "legal_name": "Synthetic Person 14",
+      "contact_email": "person14@test.invalid",
+      "mobile": "555-200-0014",
+      "national_id": "SYN-ID-100014",
+      "address": {
+        "line1": "114 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10014"
+      }
+    },
+    {
+      "user_id": "usr-synth-15",
+      "legal_name": "Synthetic Person 15",
+      "contact_email": "person15@test.invalid",
+      "mobile": "555-200-0015",
+      "national_id": "SYN-ID-100015",
+      "address": {
+        "line1": "115 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10015"
+      }
+    },
+    {
+      "user_id": "usr-synth-16",
+      "legal_name": "Synthetic Person 16",
+      "contact_email": "person16@test.invalid",
+      "mobile": "555-200-0016",
+      "national_id": "SYN-ID-100016",
+      "address": {
+        "line1": "116 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10016"
+      }
+    },
+    {
+      "user_id": "usr-synth-17",
+      "legal_name": "Synthetic Person 17",
+      "contact_email": "person17@test.invalid",
+      "mobile": "555-200-0017",
+      "national_id": "SYN-ID-100017",
+      "address": {
+        "line1": "117 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10017"
+      }
+    },
+    {
+      "user_id": "usr-synth-18",
+      "legal_name": "Synthetic Person 18",
+      "contact_email": "person18@test.invalid",
+      "mobile": "555-200-0018",
+      "national_id": "SYN-ID-100018",
+      "address": {
+        "line1": "118 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10018"
+      }
+    },
+    {
+      "user_id": "usr-synth-19",
+      "legal_name": "Synthetic Person 19",
+      "contact_email": "person19@test.invalid",
+      "mobile": "555-200-0019",
+      "national_id": "SYN-ID-100019",
+      "address": {
+        "line1": "119 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10019"
+      }
+    },
+    {
+      "user_id": "usr-synth-20",
+      "legal_name": "Synthetic Person 20",
+      "contact_email": "person20@test.invalid",
+      "mobile": "555-200-0020",
+      "national_id": "SYN-ID-100020",
+      "address": {
+        "line1": "120 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10020"
+      }
+    },
+    {
+      "user_id": "usr-synth-21",
+      "legal_name": "Synthetic Person 21",
+      "contact_email": "person21@test.invalid",
+      "mobile": "555-200-0021",
+      "national_id": "SYN-ID-100021",
+      "address": {
+        "line1": "121 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10021"
+      }
+    },
+    {
+      "user_id": "usr-synth-22",
+      "legal_name": "Synthetic Person 22",
+      "contact_email": "person22@test.invalid",
+      "mobile": "555-200-0022",
+      "national_id": "SYN-ID-100022",
+      "address": {
+        "line1": "122 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10022"
+      }
+    },
+    {
+      "user_id": "usr-synth-23",
+      "legal_name": "Synthetic Person 23",
+      "contact_email": "person23@test.invalid",
+      "mobile": "555-200-0023",
+      "national_id": "SYN-ID-100023",
+      "address": {
+        "line1": "123 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10023"
+      }
+    },
+    {
+      "user_id": "usr-synth-24",
+      "legal_name": "Synthetic Person 24",
+      "contact_email": "person24@test.invalid",
+      "mobile": "555-200-0024",
+      "national_id": "SYN-ID-100024",
+      "address": {
+        "line1": "124 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10024"
+      }
+    },
+    {
+      "user_id": "usr-synth-25",
+      "legal_name": "Synthetic Person 25",
+      "contact_email": "person25@test.invalid",
+      "mobile": "555-200-0025",
+      "national_id": "SYN-ID-100025",
+      "address": {
+        "line1": "125 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10025"
+      }
+    },
+    {
+      "user_id": "usr-synth-26",
+      "legal_name": "Synthetic Person 26",
+      "contact_email": "person26@test.invalid",
+      "mobile": "555-200-0026",
+      "national_id": "SYN-ID-100026",
+      "address": {
+        "line1": "126 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10026"
+      }
+    },
+    {
+      "user_id": "usr-synth-27",
+      "legal_name": "Synthetic Person 27",
+      "contact_email": "person27@test.invalid",
+      "mobile": "555-200-0027",
+      "national_id": "SYN-ID-100027",
+      "address": {
+        "line1": "127 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10027"
+      }
+    },
+    {
+      "user_id": "usr-synth-28",
+      "legal_name": "Synthetic Person 28",
+      "contact_email": "person28@test.invalid",
+      "mobile": "555-200-0028",
+      "national_id": "SYN-ID-100028",
+      "address": {
+        "line1": "128 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10028"
+      }
+    },
+    {
+      "user_id": "usr-synth-29",
+      "legal_name": "Synthetic Person 29",
+      "contact_email": "person29@test.invalid",
+      "mobile": "555-200-0029",
+      "national_id": "SYN-ID-100029",
+      "address": {
+        "line1": "129 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10029"
+      }
+    },
+    {
+      "user_id": "usr-synth-30",
+      "legal_name": "Synthetic Person 30",
+      "contact_email": "person30@test.invalid",
+      "mobile": "555-200-0030",
+      "national_id": "SYN-ID-100030",
+      "address": {
+        "line1": "130 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10030"
+      }
+    },
+    {
+      "user_id": "usr-synth-31",
+      "legal_name": "Synthetic Person 31",
+      "contact_email": "person31@test.invalid",
+      "mobile": "555-200-0031",
+      "national_id": "SYN-ID-100031",
+      "address": {
+        "line1": "131 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10031"
+      }
+    },
+    {
+      "user_id": "usr-synth-32",
+      "legal_name": "Synthetic Person 32",
+      "contact_email": "person32@test.invalid",
+      "mobile": "555-200-0032",
+      "national_id": "SYN-ID-100032",
+      "address": {
+        "line1": "132 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10032"
+      }
+    },
+    {
+      "user_id": "usr-synth-33",
+      "legal_name": "Synthetic Person 33",
+      "contact_email": "person33@test.invalid",
+      "mobile": "555-200-0033",
+      "national_id": "SYN-ID-100033",
+      "address": {
+        "line1": "133 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10033"
+      }
+    },
+    {
+      "user_id": "usr-synth-34",
+      "legal_name": "Synthetic Person 34",
+      "contact_email": "person34@test.invalid",
+      "mobile": "555-200-0034",
+      "national_id": "SYN-ID-100034",
+      "address": {
+        "line1": "134 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10034"
+      }
+    },
+    {
+      "user_id": "usr-synth-35",
+      "legal_name": "Synthetic Person 35",
+      "contact_email": "person35@test.invalid",
+      "mobile": "555-200-0035",
+      "national_id": "SYN-ID-100035",
+      "address": {
+        "line1": "135 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10035"
+      }
+    },
+    {
+      "user_id": "usr-synth-36",
+      "legal_name": "Synthetic Person 36",
+      "contact_email": "person36@test.invalid",
+      "mobile": "555-200-0036",
+      "national_id": "SYN-ID-100036",
+      "address": {
+        "line1": "136 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10036"
+      }
+    },
+    {
+      "user_id": "usr-synth-37",
+      "legal_name": "Synthetic Person 37",
+      "contact_email": "person37@test.invalid",
+      "mobile": "555-200-0037",
+      "national_id": "SYN-ID-100037",
+      "address": {
+        "line1": "137 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10037"
+      }
+    },
+    {
+      "user_id": "usr-synth-38",
+      "legal_name": "Synthetic Person 38",
+      "contact_email": "person38@test.invalid",
+      "mobile": "555-200-0038",
+      "national_id": "SYN-ID-100038",
+      "address": {
+        "line1": "138 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10038"
+      }
+    },
+    {
+      "user_id": "usr-synth-39",
+      "legal_name": "Synthetic Person 39",
+      "contact_email": "person39@test.invalid",
+      "mobile": "555-200-0039",
+      "national_id": "SYN-ID-100039",
+      "address": {
+        "line1": "139 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10039"
+      }
+    },
+    {
+      "user_id": "usr-synth-40",
+      "legal_name": "Synthetic Person 40",
+      "contact_email": "person40@test.invalid",
+      "mobile": "555-200-0040",
+      "national_id": "SYN-ID-100040",
+      "address": {
+        "line1": "140 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10040"
+      }
+    },
+    {
+      "user_id": "usr-synth-41",
+      "legal_name": "Synthetic Person 41",
+      "contact_email": "person41@test.invalid",
+      "mobile": "555-200-0041",
+      "national_id": "SYN-ID-100041",
+      "address": {
+        "line1": "141 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10041"
+      }
+    },
+    {
+      "user_id": "usr-synth-42",
+      "legal_name": "Synthetic Person 42",
+      "contact_email": "person42@test.invalid",
+      "mobile": "555-200-0042",
+      "national_id": "SYN-ID-100042",
+      "address": {
+        "line1": "142 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10042"
+      }
+    },
+    {
+      "user_id": "usr-synth-43",
+      "legal_name": "Synthetic Person 43",
+      "contact_email": "person43@test.invalid",
+      "mobile": "555-200-0043",
+      "national_id": "SYN-ID-100043",
+      "address": {
+        "line1": "143 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10043"
+      }
+    },
+    {
+      "user_id": "usr-synth-44",
+      "legal_name": "Synthetic Person 44",
+      "contact_email": "person44@test.invalid",
+      "mobile": "555-200-0044",
+      "national_id": "SYN-ID-100044",
+      "address": {
+        "line1": "144 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10044"
+      }
+    },
+    {
+      "user_id": "usr-synth-45",
+      "legal_name": "Synthetic Person 45",
+      "contact_email": "person45@test.invalid",
+      "mobile": "555-200-0045",
+      "national_id": "SYN-ID-100045",
+      "address": {
+        "line1": "145 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10045"
+      }
+    },
+    {
+      "user_id": "usr-synth-46",
+      "legal_name": "Synthetic Person 46",
+      "contact_email": "person46@test.invalid",
+      "mobile": "555-200-0046",
+      "national_id": "SYN-ID-100046",
+      "address": {
+        "line1": "146 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10046"
+      }
+    },
+    {
+      "user_id": "usr-synth-47",
+      "legal_name": "Synthetic Person 47",
+      "contact_email": "person47@test.invalid",
+      "mobile": "555-200-0047",
+      "national_id": "SYN-ID-100047",
+      "address": {
+        "line1": "147 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10047"
+      }
+    },
+    {
+      "user_id": "usr-synth-48",
+      "legal_name": "Synthetic Person 48",
+      "contact_email": "person48@test.invalid",
+      "mobile": "555-200-0048",
+      "national_id": "SYN-ID-100048",
+      "address": {
+        "line1": "148 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10048"
+      }
+    },
+    {
+      "user_id": "usr-synth-49",
+      "legal_name": "Synthetic Person 49",
+      "contact_email": "person49@test.invalid",
+      "mobile": "555-200-0049",
+      "national_id": "SYN-ID-100049",
+      "address": {
+        "line1": "149 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10049"
+      }
+    },
+    {
+      "user_id": "usr-synth-50",
+      "legal_name": "Synthetic Person 50",
+      "contact_email": "person50@test.invalid",
+      "mobile": "555-200-0050",
+      "national_id": "SYN-ID-100050",
+      "address": {
+        "line1": "100 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10050"
+      }
+    },
+    {
+      "user_id": "usr-synth-51",
+      "legal_name": "Synthetic Person 51",
+      "contact_email": "person51@test.invalid",
+      "mobile": "555-200-0051",
+      "national_id": "SYN-ID-100051",
+      "address": {
+        "line1": "101 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10051"
+      }
+    },
+    {
+      "user_id": "usr-synth-52",
+      "legal_name": "Synthetic Person 52",
+      "contact_email": "person52@test.invalid",
+      "mobile": "555-200-0052",
+      "national_id": "SYN-ID-100052",
+      "address": {
+        "line1": "102 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10052"
+      }
+    },
+    {
+      "user_id": "usr-synth-53",
+      "legal_name": "Synthetic Person 53",
+      "contact_email": "person53@test.invalid",
+      "mobile": "555-200-0053",
+      "national_id": "SYN-ID-100053",
+      "address": {
+        "line1": "103 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10053"
+      }
+    },
+    {
+      "user_id": "usr-synth-54",
+      "legal_name": "Synthetic Person 54",
+      "contact_email": "person54@test.invalid",
+      "mobile": "555-200-0054",
+      "national_id": "SYN-ID-100054",
+      "address": {
+        "line1": "104 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10054"
+      }
+    },
+    {
+      "user_id": "usr-synth-55",
+      "legal_name": "Synthetic Person 55",
+      "contact_email": "person55@test.invalid",
+      "mobile": "555-200-0055",
+      "national_id": "SYN-ID-100055",
+      "address": {
+        "line1": "105 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10055"
+      }
+    },
+    {
+      "user_id": "usr-synth-56",
+      "legal_name": "Synthetic Person 56",
+      "contact_email": "person56@test.invalid",
+      "mobile": "555-200-0056",
+      "national_id": "SYN-ID-100056",
+      "address": {
+        "line1": "106 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10056"
+      }
+    },
+    {
+      "user_id": "usr-synth-57",
+      "legal_name": "Synthetic Person 57",
+      "contact_email": "person57@test.invalid",
+      "mobile": "555-200-0057",
+      "national_id": "SYN-ID-100057",
+      "address": {
+        "line1": "107 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10057"
+      }
+    },
+    {
+      "user_id": "usr-synth-58",
+      "legal_name": "Synthetic Person 58",
+      "contact_email": "person58@test.invalid",
+      "mobile": "555-200-0058",
+      "national_id": "SYN-ID-100058",
+      "address": {
+        "line1": "108 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10058"
+      }
+    },
+    {
+      "user_id": "usr-synth-59",
+      "legal_name": "Synthetic Person 59",
+      "contact_email": "person59@test.invalid",
+      "mobile": "555-200-0059",
+      "national_id": "SYN-ID-100059",
+      "address": {
+        "line1": "109 Fictional Ave",
+        "city": "Sampletown",
+        "region": "EX",
+        "postal": "10059"
+      }
+    }
+  ]
+}

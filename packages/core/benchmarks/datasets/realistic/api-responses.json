@@ -1,0 +1,1383 @@
+{
+  "meta": {
+    "api_version": "v2",
+    "tenant": "bench-tenant-alpha"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_size": 12,
+      "total_pages": 5,
+      "items": [
+        {
+          "id": "item-0",
+          "type": "resource",
+          "attributes": {
+            "status": "active",
+            "score": 0.42,
+            "tags": [
+              "alpha"
+            ],
+            "nested": {
+              "revision": 0,
+              "flags": {
+                "a": true,
+                "b": true
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-0"
+          }
+        },
+        {
+          "id": "item-1",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.43,
+            "tags": [
+              "alpha",
+              "beta"
+            ],
+            "nested": {
+              "revision": 1,
+              "flags": {
+                "a": true,
+                "b": false
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-1"
+          }
+        },
+        {
+          "id": "item-2",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.44,
+            "tags": [
+              "alpha",
+              "beta",
+              "gamma"
+            ],
+            "nested": {
+              "revision": 2,
+              "flags": {
+                "a": true,
+                "b": true
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-2"
+          }
+        },
+        {
+          "id": "item-3",
+          "type": "resource",
+          "attributes": {
+            "status": "active",
+            "score": 0.44999999999999996,
+            "tags": [
+              "alpha"
+            ],
+            "nested": {
+              "revision": 3,
+              "flags": {
+                "a": true,
+                "b": false
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-3"
+          }
+        },
+        {
+          "id": "item-4",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.45999999999999996,
+            "tags": [
+              "alpha",
+              "beta"
+            ],
+            "nested": {
+              "revision": 4,
+              "flags": {
+                "a": true,
+                "b": true
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-4"
+          }
+        },
+        {
+          "id": "item-5",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.47,
+            "tags": [
+              "alpha",
+              "beta",
+              "gamma"
+            ],
+            "nested": {
+              "revision": 5,
+              "flags": {
+                "a": true,
+                "b": false
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-5"
+          }
+        },
+        {
+          "id": "item-6",
+          "type": "resource",
+          "attributes": {
+            "status": "active",
+            "score": 0.48,
+            "tags": [
+              "alpha"
+            ],
+            "nested": {
+              "revision": 6,
+              "flags": {
+                "a": true,
+                "b": true
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-6"
+          }
+        },
+        {
+          "id": "item-7",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.49,
+            "tags": [
+              "alpha",
+              "beta"
+            ],
+            "nested": {
+              "revision": 0,
+              "flags": {
+                "a": true,
+                "b": false
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-7"
+          }
+        },
+        {
+          "id": "item-8",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.5,
+            "tags": [
+              "alpha",
+              "beta",
+              "gamma"
+            ],
+            "nested": {
+              "revision": 1,
+              "flags": {
+                "a": true,
+                "b": true
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-8"
+          }
+        },
+        {
+          "id": "item-9",
+          "type": "resource",
+          "attributes": {
+            "status": "active",
+            "score": 0.51,
+            "tags": [
+              "alpha"
+            ],
+            "nested": {
+              "revision": 2,
+              "flags": {
+                "a": true,
+                "b": false
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-9"
+          }
+        },
+        {
+          "id": "item-10",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.42,
+            "tags": [
+              "alpha",
+              "beta"
+            ],
+            "nested": {
+              "revision": 3,
+              "flags": {
+                "a": true,
+                "b": true
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-10"
+          }
+        },
+        {
+          "id": "item-11",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.43,
+            "tags": [
+              "alpha",
+              "beta",
+              "gamma"
+            ],
+            "nested": {
+              "revision": 4,
+              "flags": {
+                "a": true,
+                "b": false
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-11"
+          }
+        }
+      ],
+      "rate_limit": {
+        "remaining": 900,
+        "reset_at": "2026-01-15T12:00:00.000Z"
+      }
+    },
+    {
+      "page": 2,
+      "page_size": 12,
+      "total_pages": 5,
+      "items": [
+        {
+          "id": "item-12",
+          "type": "resource",
+          "attributes": {
+            "status": "active",
+            "score": 0.42,
+            "tags": [
+              "alpha"
+            ],
+            "nested": {
+              "revision": 0,
+              "flags": {
+                "a": true,
+                "b": true
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-12"
+          }
+        },
+        {
+          "id": "item-13",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.43,
+            "tags": [
+              "alpha",
+              "beta"
+            ],
+            "nested": {
+              "revision": 1,
+              "flags": {
+                "a": true,
+                "b": false
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-13"
+          }
+        },
+        {
+          "id": "item-14",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.44,
+            "tags": [
+              "alpha",
+              "beta",
+              "gamma"
+            ],
+            "nested": {
+              "revision": 2,
+              "flags": {
+                "a": true,
+                "b": true
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-14"
+          }
+        },
+        {
+          "id": "item-15",
+          "type": "resource",
+          "attributes": {
+            "status": "active",
+            "score": 0.44999999999999996,
+            "tags": [
+              "alpha"
+            ],
+            "nested": {
+              "revision": 3,
+              "flags": {
+                "a": true,
+                "b": false
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-15"
+          }
+        },
+        {
+          "id": "item-16",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.45999999999999996,
+            "tags": [
+              "alpha",
+              "beta"
+            ],
+            "nested": {
+              "revision": 4,
+              "flags": {
+                "a": true,
+                "b": true
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-16"
+          }
+        },
+        {
+          "id": "item-17",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.47,
+            "tags": [
+              "alpha",
+              "beta",
+              "gamma"
+            ],
+            "nested": {
+              "revision": 5,
+              "flags": {
+                "a": true,
+                "b": false
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-17"
+          }
+        },
+        {
+          "id": "item-18",
+          "type": "resource",
+          "attributes": {
+            "status": "active",
+            "score": 0.48,
+            "tags": [
+              "alpha"
+            ],
+            "nested": {
+              "revision": 6,
+              "flags": {
+                "a": true,
+                "b": true
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-18"
+          }
+        },
+        {
+          "id": "item-19",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.49,
+            "tags": [
+              "alpha",
+              "beta"
+            ],
+            "nested": {
+              "revision": 0,
+              "flags": {
+                "a": true,
+                "b": false
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-19"
+          }
+        },
+        {
+          "id": "item-20",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.5,
+            "tags": [
+              "alpha",
+              "beta",
+              "gamma"
+            ],
+            "nested": {
+              "revision": 1,
+              "flags": {
+                "a": true,
+                "b": true
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-20"
+          }
+        },
+        {
+          "id": "item-21",
+          "type": "resource",
+          "attributes": {
+            "status": "active",
+            "score": 0.51,
+            "tags": [
+              "alpha"
+            ],
+            "nested": {
+              "revision": 2,
+              "flags": {
+                "a": true,
+                "b": false
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-21"
+          }
+        },
+        {
+          "id": "item-22",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.42,
+            "tags": [
+              "alpha",
+              "beta"
+            ],
+            "nested": {
+              "revision": 3,
+              "flags": {
+                "a": true,
+                "b": true
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-22"
+          }
+        },
+        {
+          "id": "item-23",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.43,
+            "tags": [
+              "alpha",
+              "beta",
+              "gamma"
+            ],
+            "nested": {
+              "revision": 4,
+              "flags": {
+                "a": true,
+                "b": false
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-23"
+          }
+        }
+      ],
+      "rate_limit": {
+        "remaining": 890,
+        "reset_at": "2026-01-15T12:00:00.000Z"
+      }
+    },
+    {
+      "page": 3,
+      "page_size": 12,
+      "total_pages": 5,
+      "items": [
+        {
+          "id": "item-24",
+          "type": "resource",
+          "attributes": {
+            "status": "active",
+            "score": 0.42,
+            "tags": [
+              "alpha"
+            ],
+            "nested": {
+              "revision": 0,
+              "flags": {
+                "a": true,
+                "b": true
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-24"
+          }
+        },
+        {
+          "id": "item-25",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.43,
+            "tags": [
+              "alpha",
+              "beta"
+            ],
+            "nested": {
+              "revision": 1,
+              "flags": {
+                "a": true,
+                "b": false
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-25"
+          }
+        },
+        {
+          "id": "item-26",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.44,
+            "tags": [
+              "alpha",
+              "beta",
+              "gamma"
+            ],
+            "nested": {
+              "revision": 2,
+              "flags": {
+                "a": true,
+                "b": true
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-26"
+          }
+        },
+        {
+          "id": "item-27",
+          "type": "resource",
+          "attributes": {
+            "status": "active",
+            "score": 0.44999999999999996,
+            "tags": [
+              "alpha"
+            ],
+            "nested": {
+              "revision": 3,
+              "flags": {
+                "a": true,
+                "b": false
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-27"
+          }
+        },
+        {
+          "id": "item-28",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.45999999999999996,
+            "tags": [
+              "alpha",
+              "beta"
+            ],
+            "nested": {
+              "revision": 4,
+              "flags": {
+                "a": true,
+                "b": true
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-28"
+          }
+        },
+        {
+          "id": "item-29",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.47,
+            "tags": [
+              "alpha",
+              "beta",
+              "gamma"
+            ],
+            "nested": {
+              "revision": 5,
+              "flags": {
+                "a": true,
+                "b": false
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-29"
+          }
+        },
+        {
+          "id": "item-30",
+          "type": "resource",
+          "attributes": {
+            "status": "active",
+            "score": 0.48,
+            "tags": [
+              "alpha"
+            ],
+            "nested": {
+              "revision": 6,
+              "flags": {
+                "a": true,
+                "b": true
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-30"
+          }
+        },
+        {
+          "id": "item-31",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.49,
+            "tags": [
+              "alpha",
+              "beta"
+            ],
+            "nested": {
+              "revision": 0,
+              "flags": {
+                "a": true,
+                "b": false
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-31"
+          }
+        },
+        {
+          "id": "item-32",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.5,
+            "tags": [
+              "alpha",
+              "beta",
+              "gamma"
+            ],
+            "nested": {
+              "revision": 1,
+              "flags": {
+                "a": true,
+                "b": true
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-32"
+          }
+        },
+        {
+          "id": "item-33",
+          "type": "resource",
+          "attributes": {
+            "status": "active",
+            "score": 0.51,
+            "tags": [
+              "alpha"
+            ],
+            "nested": {
+              "revision": 2,
+              "flags": {
+                "a": true,
+                "b": false
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-33"
+          }
+        },
+        {
+          "id": "item-34",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.42,
+            "tags": [
+              "alpha",
+              "beta"
+            ],
+            "nested": {
+              "revision": 3,
+              "flags": {
+                "a": true,
+                "b": true
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-34"
+          }
+        },
+        {
+          "id": "item-35",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.43,
+            "tags": [
+              "alpha",
+              "beta",
+              "gamma"
+            ],
+            "nested": {
+              "revision": 4,
+              "flags": {
+                "a": true,
+                "b": false
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-35"
+          }
+        }
+      ],
+      "rate_limit": {
+        "remaining": 880,
+        "reset_at": "2026-01-15T12:00:00.000Z"
+      }
+    },
+    {
+      "page": 4,
+      "page_size": 12,
+      "total_pages": 5,
+      "items": [
+        {
+          "id": "item-36",
+          "type": "resource",
+          "attributes": {
+            "status": "active",
+            "score": 0.42,
+            "tags": [
+              "alpha"
+            ],
+            "nested": {
+              "revision": 0,
+              "flags": {
+                "a": true,
+                "b": true
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-36"
+          }
+        },
+        {
+          "id": "item-37",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.43,
+            "tags": [
+              "alpha",
+              "beta"
+            ],
+            "nested": {
+              "revision": 1,
+              "flags": {
+                "a": true,
+                "b": false
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-37"
+          }
+        },
+        {
+          "id": "item-38",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.44,
+            "tags": [
+              "alpha",
+              "beta",
+              "gamma"
+            ],
+            "nested": {
+              "revision": 2,
+              "flags": {
+                "a": true,
+                "b": true
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-38"
+          }
+        },
+        {
+          "id": "item-39",
+          "type": "resource",
+          "attributes": {
+            "status": "active",
+            "score": 0.44999999999999996,
+            "tags": [
+              "alpha"
+            ],
+            "nested": {
+              "revision": 3,
+              "flags": {
+                "a": true,
+                "b": false
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-39"
+          }
+        },
+        {
+          "id": "item-40",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.45999999999999996,
+            "tags": [
+              "alpha",
+              "beta"
+            ],
+            "nested": {
+              "revision": 4,
+              "flags": {
+                "a": true,
+                "b": true
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-40"
+          }
+        },
+        {
+          "id": "item-41",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.47,
+            "tags": [
+              "alpha",
+              "beta",
+              "gamma"
+            ],
+            "nested": {
+              "revision": 5,
+              "flags": {
+                "a": true,
+                "b": false
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-41"
+          }
+        },
+        {
+          "id": "item-42",
+          "type": "resource",
+          "attributes": {
+            "status": "active",
+            "score": 0.48,
+            "tags": [
+              "alpha"
+            ],
+            "nested": {
+              "revision": 6,
+              "flags": {
+                "a": true,
+                "b": true
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-42"
+          }
+        },
+        {
+          "id": "item-43",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.49,
+            "tags": [
+              "alpha",
+              "beta"
+            ],
+            "nested": {
+              "revision": 0,
+              "flags": {
+                "a": true,
+                "b": false
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-43"
+          }
+        },
+        {
+          "id": "item-44",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.5,
+            "tags": [
+              "alpha",
+              "beta",
+              "gamma"
+            ],
+            "nested": {
+              "revision": 1,
+              "flags": {
+                "a": true,
+                "b": true
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-44"
+          }
+        },
+        {
+          "id": "item-45",
+          "type": "resource",
+          "attributes": {
+            "status": "active",
+            "score": 0.51,
+            "tags": [
+              "alpha"
+            ],
+            "nested": {
+              "revision": 2,
+              "flags": {
+                "a": true,
+                "b": false
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-45"
+          }
+        },
+        {
+          "id": "item-46",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.42,
+            "tags": [
+              "alpha",
+              "beta"
+            ],
+            "nested": {
+              "revision": 3,
+              "flags": {
+                "a": true,
+                "b": true
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-46"
+          }
+        },
+        {
+          "id": "item-47",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.43,
+            "tags": [
+              "alpha",
+              "beta",
+              "gamma"
+            ],
+            "nested": {
+              "revision": 4,
+              "flags": {
+                "a": true,
+                "b": false
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-47"
+          }
+        }
+      ],
+      "rate_limit": {
+        "remaining": 870,
+        "reset_at": "2026-01-15T12:00:00.000Z"
+      }
+    },
+    {
+      "page": 5,
+      "page_size": 12,
+      "total_pages": 5,
+      "items": [
+        {
+          "id": "item-48",
+          "type": "resource",
+          "attributes": {
+            "status": "active",
+            "score": 0.42,
+            "tags": [
+              "alpha"
+            ],
+            "nested": {
+              "revision": 0,
+              "flags": {
+                "a": true,
+                "b": true
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-48"
+          }
+        },
+        {
+          "id": "item-49",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.43,
+            "tags": [
+              "alpha",
+              "beta"
+            ],
+            "nested": {
+              "revision": 1,
+              "flags": {
+                "a": true,
+                "b": false
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-49"
+          }
+        },
+        {
+          "id": "item-50",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.44,
+            "tags": [
+              "alpha",
+              "beta",
+              "gamma"
+            ],
+            "nested": {
+              "revision": 2,
+              "flags": {
+                "a": true,
+                "b": true
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-50"
+          }
+        },
+        {
+          "id": "item-51",
+          "type": "resource",
+          "attributes": {
+            "status": "active",
+            "score": 0.44999999999999996,
+            "tags": [
+              "alpha"
+            ],
+            "nested": {
+              "revision": 3,
+              "flags": {
+                "a": true,
+                "b": false
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-51"
+          }
+        },
+        {
+          "id": "item-52",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.45999999999999996,
+            "tags": [
+              "alpha",
+              "beta"
+            ],
+            "nested": {
+              "revision": 4,
+              "flags": {
+                "a": true,
+                "b": true
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-52"
+          }
+        },
+        {
+          "id": "item-53",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.47,
+            "tags": [
+              "alpha",
+              "beta",
+              "gamma"
+            ],
+            "nested": {
+              "revision": 5,
+              "flags": {
+                "a": true,
+                "b": false
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-53"
+          }
+        },
+        {
+          "id": "item-54",
+          "type": "resource",
+          "attributes": {
+            "status": "active",
+            "score": 0.48,
+            "tags": [
+              "alpha"
+            ],
+            "nested": {
+              "revision": 6,
+              "flags": {
+                "a": true,
+                "b": true
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-54"
+          }
+        },
+        {
+          "id": "item-55",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.49,
+            "tags": [
+              "alpha",
+              "beta"
+            ],
+            "nested": {
+              "revision": 0,
+              "flags": {
+                "a": true,
+                "b": false
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-55"
+          }
+        },
+        {
+          "id": "item-56",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.5,
+            "tags": [
+              "alpha",
+              "beta",
+              "gamma"
+            ],
+            "nested": {
+              "revision": 1,
+              "flags": {
+                "a": true,
+                "b": true
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-56"
+          }
+        },
+        {
+          "id": "item-57",
+          "type": "resource",
+          "attributes": {
+            "status": "active",
+            "score": 0.51,
+            "tags": [
+              "alpha"
+            ],
+            "nested": {
+              "revision": 2,
+              "flags": {
+                "a": true,
+                "b": false
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-57"
+          }
+        },
+        {
+          "id": "item-58",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.42,
+            "tags": [
+              "alpha",
+              "beta"
+            ],
+            "nested": {
+              "revision": 3,
+              "flags": {
+                "a": true,
+                "b": true
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-58"
+          }
+        },
+        {
+          "id": "item-59",
+          "type": "resource",
+          "attributes": {
+            "status": "pending",
+            "score": 0.43,
+            "tags": [
+              "alpha",
+              "beta",
+              "gamma"
+            ],
+            "nested": {
+              "revision": 4,
+              "flags": {
+                "a": true,
+                "b": false
+              }
+            }
+          },
+          "links": {
+            "self": "/v2/items/item-59"
+          }
+        }
+      ],
+      "rate_limit": {
+        "remaining": 860,
+        "reset_at": "2026-01-15T12:00:00.000Z"
+      }
+    }
+  ]
+}

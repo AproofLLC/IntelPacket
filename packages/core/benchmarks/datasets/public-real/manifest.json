@@ -1,0 +1,58 @@
+[
+  {
+    "name": "github-api",
+    "sourceType": "generated safe subset inspired by public API documentation examples",
+    "publicSafe": true,
+    "containsPII": false,
+    "license": "Generated fixture; public documentation shape reference only",
+    "notes": "No copied API dumps, no real users, no tokens; selected for nested API response structure."
+  },
+  {
+    "name": "kubernetes-events",
+    "sourceType": "generated safe subset inspired by Kubernetes event object examples",
+    "publicSafe": true,
+    "containsPII": false,
+    "license": "Generated fixture; public documentation shape reference only",
+    "notes": "Synthetic namespaces, pods, UIDs, and messages; selected for operational event repetition."
+  },
+  {
+    "name": "otel-public-traces",
+    "sourceType": "generated safe subset inspired by OpenTelemetry examples",
+    "publicSafe": true,
+    "containsPII": false,
+    "license": "Generated fixture; public documentation shape reference only",
+    "notes": "Synthetic trace/span IDs and service attributes; selected for trace-shaped nested arrays."
+  },
+  {
+    "name": "cloud-audit-samples",
+    "sourceType": "generated safe subset inspired by public cloud audit examples",
+    "publicSafe": true,
+    "containsPII": false,
+    "license": "Generated fixture; public documentation shape reference only",
+    "notes": "Synthetic principals and reserved test network ranges; selected for audit envelope patterns."
+  },
+  {
+    "name": "webhook-events",
+    "sourceType": "generated safe subset inspired by public webhook examples",
+    "publicSafe": true,
+    "containsPII": false,
+    "license": "Generated fixture; public documentation shape reference only",
+    "notes": "Reserved domains and synthetic event IDs; selected for webhook envelope/payload patterns."
+  },
+  {
+    "name": "blockchain-transactions",
+    "sourceType": "generated safe subset shaped like public transaction records",
+    "publicSafe": true,
+    "containsPII": false,
+    "license": "Generated fixture; no external chain dump used",
+    "notes": "Fake hashes and addresses only; selected for transaction arrays and high-cardinality fields."
+  },
+  {
+    "name": "config-snapshots-public",
+    "sourceType": "generated safe subset inspired by open-source config patterns",
+    "publicSafe": true,
+    "containsPII": false,
+    "license": "Generated fixture; generic public-safe config pattern",
+    "notes": "Placeholder hosts and test endpoints only; selected for nested configuration snapshots."
+  }
+]

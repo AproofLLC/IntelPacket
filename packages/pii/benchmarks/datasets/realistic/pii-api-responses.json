@@ -1,0 +1,484 @@
+{
+  "responses": [
+    {
+      "request_id": "req-0",
+      "user": {
+        "display_name": "Bench User 0",
+        "email": "bench.user.0@example.invalid",
+        "phone": "555-0100-1000"
+      },
+      "billing": {
+        "last4": "1000",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-1",
+      "user": {
+        "display_name": "Bench User 1",
+        "email": "bench.user.1@example.invalid",
+        "phone": "555-0101-1001"
+      },
+      "billing": {
+        "last4": "1001",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-2",
+      "user": {
+        "display_name": "Bench User 2",
+        "email": "bench.user.2@example.invalid",
+        "phone": "555-0102-1002"
+      },
+      "billing": {
+        "last4": "1002",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-3",
+      "user": {
+        "display_name": "Bench User 3",
+        "email": "bench.user.3@example.invalid",
+        "phone": "555-0103-1003"
+      },
+      "billing": {
+        "last4": "1003",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-4",
+      "user": {
+        "display_name": "Bench User 4",
+        "email": "bench.user.4@example.invalid",
+        "phone": "555-0104-1004"
+      },
+      "billing": {
+        "last4": "1004",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-5",
+      "user": {
+        "display_name": "Bench User 5",
+        "email": "bench.user.5@example.invalid",
+        "phone": "555-0105-1005"
+      },
+      "billing": {
+        "last4": "1005",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-6",
+      "user": {
+        "display_name": "Bench User 6",
+        "email": "bench.user.6@example.invalid",
+        "phone": "555-0106-1006"
+      },
+      "billing": {
+        "last4": "1006",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-7",
+      "user": {
+        "display_name": "Bench User 7",
+        "email": "bench.user.7@example.invalid",
+        "phone": "555-0107-1007"
+      },
+      "billing": {
+        "last4": "1007",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-8",
+      "user": {
+        "display_name": "Bench User 8",
+        "email": "bench.user.8@example.invalid",
+        "phone": "555-0108-1008"
+      },
+      "billing": {
+        "last4": "1008",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-9",
+      "user": {
+        "display_name": "Bench User 9",
+        "email": "bench.user.9@example.invalid",
+        "phone": "555-0109-1009"
+      },
+      "billing": {
+        "last4": "1009",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-10",
+      "user": {
+        "display_name": "Bench User 10",
+        "email": "bench.user.10@example.invalid",
+        "phone": "555-0110-1010"
+      },
+      "billing": {
+        "last4": "1010",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-11",
+      "user": {
+        "display_name": "Bench User 11",
+        "email": "bench.user.11@example.invalid",
+        "phone": "555-0111-1011"
+      },
+      "billing": {
+        "last4": "1011",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-12",
+      "user": {
+        "display_name": "Bench User 12",
+        "email": "bench.user.12@example.invalid",
+        "phone": "555-0112-1012"
+      },
+      "billing": {
+        "last4": "1012",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-13",
+      "user": {
+        "display_name": "Bench User 13",
+        "email": "bench.user.13@example.invalid",
+        "phone": "555-0113-1013"
+      },
+      "billing": {
+        "last4": "1013",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-14",
+      "user": {
+        "display_name": "Bench User 14",
+        "email": "bench.user.14@example.invalid",
+        "phone": "555-0114-1014"
+      },
+      "billing": {
+        "last4": "1014",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-15",
+      "user": {
+        "display_name": "Bench User 15",
+        "email": "bench.user.15@example.invalid",
+        "phone": "555-0115-1015"
+      },
+      "billing": {
+        "last4": "1015",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-16",
+      "user": {
+        "display_name": "Bench User 16",
+        "email": "bench.user.16@example.invalid",
+        "phone": "555-0116-1016"
+      },
+      "billing": {
+        "last4": "1016",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-17",
+      "user": {
+        "display_name": "Bench User 17",
+        "email": "bench.user.17@example.invalid",
+        "phone": "555-0117-1017"
+      },
+      "billing": {
+        "last4": "1017",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-18",
+      "user": {
+        "display_name": "Bench User 18",
+        "email": "bench.user.18@example.invalid",
+        "phone": "555-0118-1018"
+      },
+      "billing": {
+        "last4": "1018",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-19",
+      "user": {
+        "display_name": "Bench User 19",
+        "email": "bench.user.19@example.invalid",
+        "phone": "555-0119-1019"
+      },
+      "billing": {
+        "last4": "1019",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-20",
+      "user": {
+        "display_name": "Bench User 0",
+        "email": "bench.user.20@example.invalid",
+        "phone": "555-0120-1020"
+      },
+      "billing": {
+        "last4": "1020",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-21",
+      "user": {
+        "display_name": "Bench User 1",
+        "email": "bench.user.21@example.invalid",
+        "phone": "555-0121-1021"
+      },
+      "billing": {
+        "last4": "1021",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-22",
+      "user": {
+        "display_name": "Bench User 2",
+        "email": "bench.user.22@example.invalid",
+        "phone": "555-0122-1022"
+      },
+      "billing": {
+        "last4": "1022",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-23",
+      "user": {
+        "display_name": "Bench User 3",
+        "email": "bench.user.23@example.invalid",
+        "phone": "555-0123-1023"
+      },
+      "billing": {
+        "last4": "1023",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-24",
+      "user": {
+        "display_name": "Bench User 4",
+        "email": "bench.user.24@example.invalid",
+        "phone": "555-0124-1024"
+      },
+      "billing": {
+        "last4": "1024",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-25",
+      "user": {
+        "display_name": "Bench User 5",
+        "email": "bench.user.25@example.invalid",
+        "phone": "555-0125-1025"
+      },
+      "billing": {
+        "last4": "1025",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-26",
+      "user": {
+        "display_name": "Bench User 6",
+        "email": "bench.user.26@example.invalid",
+        "phone": "555-0126-1026"
+      },
+      "billing": {
+        "last4": "1026",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-27",
+      "user": {
+        "display_name": "Bench User 7",
+        "email": "bench.user.27@example.invalid",
+        "phone": "555-0127-1027"
+      },
+      "billing": {
+        "last4": "1027",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-28",
+      "user": {
+        "display_name": "Bench User 8",
+        "email": "bench.user.28@example.invalid",
+        "phone": "555-0128-1028"
+      },
+      "billing": {
+        "last4": "1028",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-29",
+      "user": {
+        "display_name": "Bench User 9",
+        "email": "bench.user.29@example.invalid",
+        "phone": "555-0129-1029"
+      },
+      "billing": {
+        "last4": "1029",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-30",
+      "user": {
+        "display_name": "Bench User 10",
+        "email": "bench.user.30@example.invalid",
+        "phone": "555-0130-1030"
+      },
+      "billing": {
+        "last4": "1030",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-31",
+      "user": {
+        "display_name": "Bench User 11",
+        "email": "bench.user.31@example.invalid",
+        "phone": "555-0131-1031"
+      },
+      "billing": {
+        "last4": "1031",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-32",
+      "user": {
+        "display_name": "Bench User 12",
+        "email": "bench.user.32@example.invalid",
+        "phone": "555-0132-1032"
+      },
+      "billing": {
+        "last4": "1032",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-33",
+      "user": {
+        "display_name": "Bench User 13",
+        "email": "bench.user.33@example.invalid",
+        "phone": "555-0133-1033"
+      },
+      "billing": {
+        "last4": "1033",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-34",
+      "user": {
+        "display_name": "Bench User 14",
+        "email": "bench.user.34@example.invalid",
+        "phone": "555-0134-1034"
+      },
+      "billing": {
+        "last4": "1034",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-35",
+      "user": {
+        "display_name": "Bench User 15",
+        "email": "bench.user.35@example.invalid",
+        "phone": "555-0135-1035"
+      },
+      "billing": {
+        "last4": "1035",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-36",
+      "user": {
+        "display_name": "Bench User 16",
+        "email": "bench.user.36@example.invalid",
+        "phone": "555-0136-1036"
+      },
+      "billing": {
+        "last4": "1036",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-37",
+      "user": {
+        "display_name": "Bench User 17",
+        "email": "bench.user.37@example.invalid",
+        "phone": "555-0137-1037"
+      },
+      "billing": {
+        "last4": "1037",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-38",
+      "user": {
+        "display_name": "Bench User 18",
+        "email": "bench.user.38@example.invalid",
+        "phone": "555-0138-1038"
+      },
+      "billing": {
+        "last4": "1038",
+        "brand": "FAKE"
+      }
+    },
+    {
+      "request_id": "req-39",
+      "user": {
+        "display_name": "Bench User 19",
+        "email": "bench.user.39@example.invalid",
+        "phone": "555-0139-1039"
+      },
+      "billing": {
+        "last4": "1039",
+        "brand": "FAKE"
+      }
+    }
+  ]
+}

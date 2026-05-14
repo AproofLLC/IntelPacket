@@ -1,0 +1,670 @@
+{
+  "app": "payments-worker",
+  "snapshots": [
+    {
+      "version": 1,
+      "deployed_at": "2026-01-01T00:00:00.000Z",
+      "config": {
+        "workers": 4,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": true,
+          "beta_api": true
+        },
+        "limits": {
+          "max_batch": 100,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 2,
+      "deployed_at": "2026-01-02T00:00:00.000Z",
+      "config": {
+        "workers": 5,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": false,
+          "beta_api": false
+        },
+        "limits": {
+          "max_batch": 101,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 3,
+      "deployed_at": "2026-01-03T00:00:00.000Z",
+      "config": {
+        "workers": 6,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": true,
+          "beta_api": false
+        },
+        "limits": {
+          "max_batch": 102,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 4,
+      "deployed_at": "2026-01-04T00:00:00.000Z",
+      "config": {
+        "workers": 4,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": false,
+          "beta_api": false
+        },
+        "limits": {
+          "max_batch": 103,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 5,
+      "deployed_at": "2026-01-05T00:00:00.000Z",
+      "config": {
+        "workers": 5,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": true,
+          "beta_api": false
+        },
+        "limits": {
+          "max_batch": 104,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 6,
+      "deployed_at": "2026-01-06T00:00:00.000Z",
+      "config": {
+        "workers": 6,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": false,
+          "beta_api": true
+        },
+        "limits": {
+          "max_batch": 105,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 7,
+      "deployed_at": "2026-01-07T00:00:00.000Z",
+      "config": {
+        "workers": 4,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": true,
+          "beta_api": false
+        },
+        "limits": {
+          "max_batch": 106,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 8,
+      "deployed_at": "2026-01-08T00:00:00.000Z",
+      "config": {
+        "workers": 5,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": false,
+          "beta_api": false
+        },
+        "limits": {
+          "max_batch": 107,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 9,
+      "deployed_at": "2026-01-09T00:00:00.000Z",
+      "config": {
+        "workers": 6,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": true,
+          "beta_api": false
+        },
+        "limits": {
+          "max_batch": 108,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 10,
+      "deployed_at": "2026-01-10T00:00:00.000Z",
+      "config": {
+        "workers": 4,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": false,
+          "beta_api": false
+        },
+        "limits": {
+          "max_batch": 109,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 11,
+      "deployed_at": "2026-01-11T00:00:00.000Z",
+      "config": {
+        "workers": 5,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": true,
+          "beta_api": true
+        },
+        "limits": {
+          "max_batch": 110,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 12,
+      "deployed_at": "2026-01-12T00:00:00.000Z",
+      "config": {
+        "workers": 6,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": false,
+          "beta_api": false
+        },
+        "limits": {
+          "max_batch": 111,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 13,
+      "deployed_at": "2026-01-13T00:00:00.000Z",
+      "config": {
+        "workers": 4,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": true,
+          "beta_api": false
+        },
+        "limits": {
+          "max_batch": 112,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 14,
+      "deployed_at": "2026-01-14T00:00:00.000Z",
+      "config": {
+        "workers": 5,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": false,
+          "beta_api": false
+        },
+        "limits": {
+          "max_batch": 113,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 15,
+      "deployed_at": "2026-01-15T00:00:00.000Z",
+      "config": {
+        "workers": 6,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": true,
+          "beta_api": false
+        },
+        "limits": {
+          "max_batch": 114,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 16,
+      "deployed_at": "2026-01-16T00:00:00.000Z",
+      "config": {
+        "workers": 4,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": false,
+          "beta_api": true
+        },
+        "limits": {
+          "max_batch": 115,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 17,
+      "deployed_at": "2026-01-17T00:00:00.000Z",
+      "config": {
+        "workers": 5,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": true,
+          "beta_api": false
+        },
+        "limits": {
+          "max_batch": 116,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 18,
+      "deployed_at": "2026-01-18T00:00:00.000Z",
+      "config": {
+        "workers": 6,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": false,
+          "beta_api": false
+        },
+        "limits": {
+          "max_batch": 117,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 19,
+      "deployed_at": "2026-01-19T00:00:00.000Z",
+      "config": {
+        "workers": 4,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": true,
+          "beta_api": false
+        },
+        "limits": {
+          "max_batch": 118,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 20,
+      "deployed_at": "2026-01-20T00:00:00.000Z",
+      "config": {
+        "workers": 5,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": false,
+          "beta_api": false
+        },
+        "limits": {
+          "max_batch": 119,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 21,
+      "deployed_at": "2026-01-21T00:00:00.000Z",
+      "config": {
+        "workers": 6,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": true,
+          "beta_api": true
+        },
+        "limits": {
+          "max_batch": 120,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 22,
+      "deployed_at": "2026-01-22T00:00:00.000Z",
+      "config": {
+        "workers": 4,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": false,
+          "beta_api": false
+        },
+        "limits": {
+          "max_batch": 121,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 23,
+      "deployed_at": "2026-01-23T00:00:00.000Z",
+      "config": {
+        "workers": 5,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": true,
+          "beta_api": false
+        },
+        "limits": {
+          "max_batch": 122,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 24,
+      "deployed_at": "2026-01-24T00:00:00.000Z",
+      "config": {
+        "workers": 6,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": false,
+          "beta_api": false
+        },
+        "limits": {
+          "max_batch": 123,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 25,
+      "deployed_at": "2026-01-25T00:00:00.000Z",
+      "config": {
+        "workers": 4,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": true,
+          "beta_api": false
+        },
+        "limits": {
+          "max_batch": 124,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 26,
+      "deployed_at": "2026-01-26T00:00:00.000Z",
+      "config": {
+        "workers": 5,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": false,
+          "beta_api": true
+        },
+        "limits": {
+          "max_batch": 125,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 27,
+      "deployed_at": "2026-01-27T00:00:00.000Z",
+      "config": {
+        "workers": 6,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": true,
+          "beta_api": false
+        },
+        "limits": {
+          "max_batch": 126,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 28,
+      "deployed_at": "2026-01-28T00:00:00.000Z",
+      "config": {
+        "workers": 4,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": false,
+          "beta_api": false
+        },
+        "limits": {
+          "max_batch": 127,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 29,
+      "deployed_at": "2026-01-01T00:00:00.000Z",
+      "config": {
+        "workers": 5,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": true,
+          "beta_api": false
+        },
+        "limits": {
+          "max_batch": 128,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 30,
+      "deployed_at": "2026-01-02T00:00:00.000Z",
+      "config": {
+        "workers": 6,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": false,
+          "beta_api": false
+        },
+        "limits": {
+          "max_batch": 129,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 31,
+      "deployed_at": "2026-01-03T00:00:00.000Z",
+      "config": {
+        "workers": 4,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": true,
+          "beta_api": true
+        },
+        "limits": {
+          "max_batch": 130,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 32,
+      "deployed_at": "2026-01-04T00:00:00.000Z",
+      "config": {
+        "workers": 5,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": false,
+          "beta_api": false
+        },
+        "limits": {
+          "max_batch": 131,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 33,
+      "deployed_at": "2026-01-05T00:00:00.000Z",
+      "config": {
+        "workers": 6,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": true,
+          "beta_api": false
+        },
+        "limits": {
+          "max_batch": 132,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 34,
+      "deployed_at": "2026-01-06T00:00:00.000Z",
+      "config": {
+        "workers": 4,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": false,
+          "beta_api": false
+        },
+        "limits": {
+          "max_batch": 133,
+          "timeout_ms": 5000
+        }
+      }
+    },
+    {
+      "version": 35,
+      "deployed_at": "2026-01-07T00:00:00.000Z",
+      "config": {
+        "workers": 5,
+        "queue": {
+          "name": "jobs-main",
+          "prefetch": 32
+        },
+        "features": {
+          "dark_mode": true,
+          "beta_api": false
+        },
+        "limits": {
+          "max_batch": 134,
+          "timeout_ms": 5000
+        }
+      }
+    }
+  ]
+}

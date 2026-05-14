@@ -1,0 +1,20 @@
+{
+  "records": [
+    {
+      "service": "public-example-api",
+      "version": "1.0.0",
+      "environment": "test",
+      "features": { "replay": true, "compression": true, "experimental": false },
+      "limits": { "requestsPerMinute": 1000, "maxPayloadBytes": 1048576 },
+      "endpoints": [{ "name": "health", "url": "https://api.example.invalid/health" }]
+    },
+    {
+      "service": "public-example-worker",
+      "version": "1.0.1",
+      "environment": "test",
+      "features": { "queue": true, "deadLetter": true, "experimental": false },
+      "limits": { "jobsPerMinute": 500, "maxRetry": 3 },
+      "endpoints": [{ "name": "metrics", "url": "https://worker.example.invalid/metrics" }]
+    }
+  ]
+}

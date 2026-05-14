@@ -1,0 +1,35 @@
+{
+  "records": [
+    {
+      "id": "evt_public_0001",
+      "type": "invoice.created",
+      "created": 1767225600,
+      "livemode": false,
+      "data": {
+        "object": {
+          "id": "in_public_0001",
+          "amount_due": 2500,
+          "currency": "usd",
+          "customer": "cus_public_0001",
+          "metadata": { "source": "synthetic-docs-shape" }
+        }
+      },
+      "request": { "id": "req_public_0001", "idempotency_key": "idem_public_0001" }
+    },
+    {
+      "id": "evt_public_0002",
+      "type": "deployment.finished",
+      "created": 1767225660,
+      "livemode": false,
+      "data": {
+        "object": {
+          "id": "dep_public_0001",
+          "environment": "test",
+          "status": "success",
+          "commit": "0000000000000000000000000000000000000001"
+        }
+      },
+      "request": { "id": "req_public_0002", "idempotency_key": "idem_public_0002" }
+    }
+  ]
+}

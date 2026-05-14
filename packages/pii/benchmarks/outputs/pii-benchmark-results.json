@@ -1,0 +1,88 @@
+{
+  "piiSpecVersion": "1",
+  "generatedAt": "2026-05-14T15:03:56.159Z",
+  "environment": {
+    "node": "v22.22.0",
+    "platform": "win32",
+    "arch": "x64",
+    "packageName": "@intelpacket/pii",
+    "packageVersion": "0.1.0"
+  },
+  "datasets": [
+    {
+      "dataset": "pii-api-responses",
+      "transformMs": 3.547,
+      "packetCreateMs": 1.591,
+      "replayMs": 0.687,
+      "reductionPercent": 83.9008,
+      "redactCount": 0,
+      "maskCount": 40,
+      "tokenizeCount": 40,
+      "hmacCount": 40,
+      "deterministicTokensStable": true,
+      "deterministicHmacStable": true,
+      "replaySuccess": true,
+      "secretLeakDetected": false
+    },
+    {
+      "dataset": "pii-audit-events",
+      "transformMs": 4.51,
+      "packetCreateMs": 1.198,
+      "replayMs": 0.52,
+      "reductionPercent": 85.6598,
+      "redactCount": 0,
+      "maskCount": 70,
+      "tokenizeCount": 140,
+      "hmacCount": 0,
+      "deterministicTokensStable": true,
+      "deterministicHmacStable": true,
+      "replaySuccess": true,
+      "secretLeakDetected": false
+    },
+    {
+      "dataset": "pii-telemetry-users",
+      "transformMs": 10.348,
+      "packetCreateMs": 2.329,
+      "replayMs": 1.04,
+      "reductionPercent": 83.422,
+      "redactCount": 0,
+      "maskCount": 0,
+      "tokenizeCount": 180,
+      "hmacCount": 180,
+      "deterministicTokensStable": true,
+      "deterministicHmacStable": true,
+      "replaySuccess": true,
+      "secretLeakDetected": false
+    },
+    {
+      "dataset": "pii-transactions",
+      "transformMs": 2.584,
+      "packetCreateMs": 0.978,
+      "replayMs": 0.289,
+      "reductionPercent": 83.4103,
+      "redactCount": 0,
+      "maskCount": 50,
+      "tokenizeCount": 50,
+      "hmacCount": 50,
+      "deterministicTokensStable": true,
+      "deterministicHmacStable": true,
+      "replaySuccess": true,
+      "secretLeakDetected": false
+    },
+    {
+      "dataset": "pii-user-records",
+      "transformMs": 7.739,
+      "packetCreateMs": 1.506,
+      "replayMs": 0.716,
+      "reductionPercent": 85.6279,
+      "redactCount": 0,
+      "maskCount": 60,
+      "tokenizeCount": 120,
+      "hmacCount": 60,
+      "deterministicTokensStable": true,
+      "deterministicHmacStable": true,
+      "replaySuccess": true,
+      "secretLeakDetected": false
+    }
+  ]
+}

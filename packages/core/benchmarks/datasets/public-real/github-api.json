@@ -1,0 +1,32 @@
+{
+  "records": [
+    {
+      "id": 1001,
+      "node_id": "MDU6SXNzdWUxMDAx",
+      "url": "https://api.example.invalid/repos/example/project/issues/1001",
+      "repository_url": "https://api.example.invalid/repos/example/project",
+      "number": 42,
+      "state": "open",
+      "title": "Synthetic issue from public docs shape",
+      "user": { "login": "example-user", "type": "User", "site_admin": false },
+      "labels": [{ "name": "bug", "color": "d73a4a" }, { "name": "triage", "color": "ededed" }],
+      "assignees": [],
+      "created_at": "2026-01-01T00:00:00Z",
+      "updated_at": "2026-01-01T00:15:00Z"
+    },
+    {
+      "id": 1002,
+      "node_id": "MDU6SXNzdWUxMDAy",
+      "url": "https://api.example.invalid/repos/example/project/pulls/7",
+      "repository_url": "https://api.example.invalid/repos/example/project",
+      "number": 7,
+      "state": "closed",
+      "title": "Synthetic pull request from public docs shape",
+      "user": { "login": "automation-user", "type": "Bot", "site_admin": false },
+      "labels": [{ "name": "docs", "color": "0075ca" }],
+      "merged": true,
+      "created_at": "2026-01-01T00:30:00Z",
+      "updated_at": "2026-01-01T01:00:00Z"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "records": [
+    {
+      "insertId": "audit-0001",
+      "logName": "projects/example-project/logs/activity",
+      "resource": { "type": "synthetic_resource", "labels": { "project_id": "example-project", "location": "us-test1" } },
+      "protoPayload": {
+        "methodName": "example.resources.create",
+        "principalEmail": "service-account@example.invalid",
+        "resourceName": "projects/example-project/resources/resource-1",
+        "requestMetadata": { "callerIp": "192.0.2.10", "userAgent": "synthetic-agent/1.0" }
+      },
+      "severity": "NOTICE",
+      "timestamp": "2026-01-01T00:00:00Z"
+    },
+    {
+      "insertId": "audit-0002",
+      "logName": "projects/example-project/logs/data_access",
+      "resource": { "type": "synthetic_bucket", "labels": { "bucket_name": "public-safe-bucket" } },
+      "protoPayload": {
+        "methodName": "example.objects.get",
+        "principalEmail": "automation@example.invalid",
+        "resourceName": "projects/example-project/buckets/public-safe-bucket/objects/example.json",
+        "requestMetadata": { "callerIp": "198.51.100.20", "userAgent": "synthetic-agent/1.0" }
+      },
+      "severity": "INFO",
+      "timestamp": "2026-01-01T00:01:00Z"
+    }
+  ]
+}
