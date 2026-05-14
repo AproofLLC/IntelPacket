@@ -33,19 +33,19 @@ jobs:
       - name: Monorepo structure
         run: pnpm run verify:structure
 
+      - name: Build (all packages)
+        run: pnpm -r run build
+
       - name: Typecheck (all packages)
         run: pnpm -r run typecheck
 
       - name: Test (all packages)
         run: pnpm -r test
 
-      - name: Build (all packages)
-        run: pnpm -r run build
-
       - name: Integrity hardening tests
         run: pnpm run verify:integrity
 
-      - name: Full verify (typecheck + test + build)
+      - name: Full verify (build + typecheck + test)
         run: pnpm run verify
 
       - name: npm pack dry-run

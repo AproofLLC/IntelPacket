@@ -35,9 +35,9 @@
     "bench:advanced:strict:100k": "corepack pnpm run bench:core:advanced -- --scale=100k --strict-scale && corepack pnpm run bench:pii:advanced -- --scale=100k --strict-scale",
     "pack:dry": "corepack pnpm -r exec npm pack --dry-run",
     "test:integrity": "node scripts/verify-integrity.mjs",
-    "verify": "corepack pnpm run typecheck && corepack pnpm run test && corepack pnpm run build",
-    "verify:core": "corepack pnpm --filter @intelpacket/core run typecheck && corepack pnpm run test:core && corepack pnpm run build:core",
-    "verify:pii": "corepack pnpm --filter @intelpacket/pii run typecheck && corepack pnpm run test:pii && corepack pnpm run build:pii",
+    "verify": "corepack pnpm run build && corepack pnpm run typecheck && corepack pnpm run test",
+    "verify:core": "corepack pnpm run build:core && corepack pnpm --filter @intelpacket/core run typecheck && corepack pnpm run test:core",
+    "verify:pii": "corepack pnpm run build:core && corepack pnpm run build:pii && corepack pnpm --filter @intelpacket/pii run typecheck && corepack pnpm run test:pii",
     "verify:structure": "node scripts/verify-monorepo.mjs",
     "verify:integrity": "corepack pnpm run verify:structure && corepack pnpm run test:integrity",
     "verify:release": "corepack pnpm run verify && corepack pnpm run verify:structure && corepack pnpm run pack:dry"
