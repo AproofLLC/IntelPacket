@@ -2,7 +2,7 @@
  * Synthetic SaaS user profile — not production data.
  * Run: pnpm exec tsx examples/saas-user.ts
  */
-import { createPIIPacket, protectPII, validatePrivacyPolicy, verifyPrivacyResult } from "../src/index.js";
+import { createPIIPacket, protectPII, validatePrivacyPolicy, verifyPrivacyResult } from "@intelpacket/pii";
 
 const TOK = process.env.TOKEN_SECRET ?? "dev-32-byte-saas-placeholder-key!";
 const HMK = process.env.HMAC_SECRET ?? "dev-32-byte-saas-hmac-placeholder!!";

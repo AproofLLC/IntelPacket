@@ -2,7 +2,7 @@
  * Synthetic finance record — not real account data.
  * Run: pnpm exec tsx examples/finance.ts
  */
-import { createPIIPacket, protectPII, validatePrivacyPolicy, verifyPrivacyResult } from "../src/index.js";
+import { createPIIPacket, protectPII, validatePrivacyPolicy, verifyPrivacyResult } from "@intelpacket/pii";
 
 const TOK = process.env.TOKEN_SECRET ?? "dev-32-byte-finance-placeholder!!";
 const HMK = process.env.HMAC_SECRET ?? "dev-32-byte-finance-hmac-placeholder";

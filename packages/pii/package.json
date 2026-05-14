@@ -1,7 +1,8 @@
 {
   "name": "@intelpacket/pii",
   "version": "0.1.0",
-  "description": "Privacy-safe preprocessing layer for sensitive structured data before IntelPacket packetization.",
+  "description": "Policy-driven privacy preprocessing layer for IntelPacket Core with deterministic tokenization, masking, redaction, and HMAC transforms.",
+  "author": "Aproof LLC",
   "license": "MIT",
   "sideEffects": false,
   "type": "module",
@@ -77,13 +78,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/intelpacket/intelpacket.git",
+    "url": "https://github.com/AproofLLC/IntelPacket.git",
     "directory": "packages/pii"
   },
   "bugs": {
-    "url": "https://github.com/intelpacket/intelpacket/issues"
+    "url": "https://github.com/AproofLLC/IntelPacket/issues"
   },
-  "homepage": "https://github.com/intelpacket/intelpacket/tree/main/packages/pii#readme",
+  "homepage": "https://github.com/AproofLLC/IntelPacket/tree/main/packages/pii#readme",
   "publishConfig": {
     "access": "public"
   }

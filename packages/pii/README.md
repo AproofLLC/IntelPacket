@@ -1,4 +1,6 @@
-# IntelPacket PII (`@intelpacket/pii`)
+# IntelPacket PII
+
+Package: `@intelpacket/pii`
 
 **Optional privacy preprocessing** for JSON-like structured data **before** `@intelpacket/core` packetization (`createPacket`, hash, compress, replay).
 
@@ -8,7 +10,7 @@ IntelPacket PII applies to **any system** that processes sensitive structured da
 
 **Formal spec:** [IntelPacket PII Specification v1](./docs/intelpacket-pii-spec-v1.md)  
 **Core spec:** [IntelPacket Specification v1](../core/docs/intelpacket-spec-v1.md)  
-**Suite limitations:** [Limitations & Non-Goals](https://github.com/intelpacket/intelpacket/blob/main/docs/LIMITATIONS.md)
+**Suite limitations:** [Limitations & Non-Goals](https://github.com/AproofLLC/IntelPacket/blob/main/docs/LIMITATIONS.md)
 
 ## Integrity Hardening
 
@@ -41,12 +43,12 @@ Strict 100k benchmarks are manual only and are not run by CI.
 ## Install
 
 ```bash
-pnpm add @intelpacket/pii
-# or
 npm install @intelpacket/pii
 ```
 
-Requires **Node.js 18+**. In this monorepo, `@intelpacket/core` is linked via `workspace:*`.
+Optional pnpm/yarn equivalents: `pnpm add @intelpacket/pii` or `yarn add @intelpacket/pii`.
+
+Requires **Node.js 18+**. `@intelpacket/pii` depends on `@intelpacket/core`; npm installs that dependency automatically. Install `@intelpacket/core` separately only if you want to use core APIs directly.
 
 ## Policy example
 

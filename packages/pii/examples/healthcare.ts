@@ -9,7 +9,7 @@ import {
   replayPacket,
   validatePrivacyPolicy,
   verifyPrivacyResult,
-} from "../src/index.js";
+} from "@intelpacket/pii";
 
 const TOK = process.env.TOKEN_SECRET ?? "dev-32-byte-health-placeholder!!!";
 const HMK = process.env.HMAC_SECRET ?? "dev-32-byte-health-hmac-placeholder!";

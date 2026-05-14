@@ -1,4 +1,4 @@
-import { createPacket, replayPacket, verifyIntelPacket } from "../src/index.js";
+import { createPacket, replayPacket, verifyIntelPacket } from "@intelpacket/pii";
 
 const input = {
   user_id: "u1",

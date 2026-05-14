@@ -1,6 +1,6 @@
 # IntelPacket Suite
 
-[![CI](https://img.shields.io/badge/CI-replace_with_workflow_badge-lightgrey.svg)](https://github.com/OWNER/REPO/actions/workflows/ci.yml)
+[![CI](https://github.com/AproofLLC/IntelPacket/actions/workflows/ci.yml/badge.svg)](https://github.com/AproofLLC/IntelPacket/actions/workflows/ci.yml)
 
 Deterministic structured-data packetization and integrity tooling for Node.js. Optional privacy preprocessing (`@intelpacket/pii`) runs **before** the core engine (`@intelpacket/core`) so packets stay canonical, hashed, and replay-verifiable without coupling the layers.
 
@@ -13,10 +13,13 @@ raw data
 
 ## Packages
 
-| Package | Role |
-|---------|------|
-| [`@intelpacket/core`](./packages/core/) | Normalize, canonicalize, compact, dedupe, delta metadata, compress, SHA-256 hash, verify, replay. |
-| [`@intelpacket/pii`](./packages/pii/) | Policy-driven redact / mask / tokenize / HMAC / remove, privacy reports, `createPIIPacket` adapter. Depends on core via `workspace:*` in-repo; **core does not depend on pii.** |
+| Package | Install | Purpose |
+|---|---|---|
+| [`@intelpacket/core`](./packages/core/) | `npm install @intelpacket/core` | Deterministic packetization, canonicalization, replay verification, deduplication, compaction, hashing, and integrity engine |
+| [`@intelpacket/pii`](./packages/pii/) | `npm install @intelpacket/pii` | Policy-driven privacy preprocessing layer built on top of `@intelpacket/core` |
+
+`@intelpacket/pii` depends on `@intelpacket/core`.
+`@intelpacket/core` does not depend on `@intelpacket/pii`.
 
 ## Features
 
@@ -53,14 +56,17 @@ pnpm run bench:advanced:strict:100k
 ## Installation
 
 ```bash
-pnpm add @intelpacket/core
-# optional
-pnpm add @intelpacket/pii
-```
-
-```bash
 npm install @intelpacket/core
 npm install @intelpacket/pii
+```
+
+Optional pnpm/yarn equivalents:
+
+```bash
+pnpm add @intelpacket/core
+pnpm add @intelpacket/pii
+yarn add @intelpacket/core
+yarn add @intelpacket/pii
 ```
 
 Requires **Node.js 18+** (CI exercises Node 20).
@@ -176,6 +182,17 @@ tests/             (package-local tests under packages/*/tests)
 - Publish **`@intelpacket/core` before `@intelpacket/pii`** when both change.
 - Use `pnpm run verify:release` and the GitHub **Release check** workflow before tagging.
 - Semantic versioning per package; spec or breaking pipeline changes require tests and documentation updates together.
+- npm package pages: [`@intelpacket/core`](https://www.npmjs.com/package/@intelpacket/core) and [`@intelpacket/pii`](https://www.npmjs.com/package/@intelpacket/pii).
+
+Manual publish commands:
+
+```bash
+cd packages/core
+npm publish --access public
+
+cd ../pii
+npm publish --access public
+```
 
 ## Non-goals
 

@@ -2,7 +2,7 @@
  * Synthetic legal / matter record — not real client data.
  * Run: pnpm exec tsx examples/legal.ts
  */
-import { protectPII, validatePrivacyPolicy, verifyPrivacyResult } from "../src/index.js";
+import { protectPII, validatePrivacyPolicy, verifyPrivacyResult } from "@intelpacket/pii";
 
 const TOK = process.env.TOKEN_SECRET ?? "dev-32-byte-legal-placeholder-key!";
 const HMK = process.env.HMAC_SECRET ?? "dev-32-byte-legal-hmac-placeholder!";

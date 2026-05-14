@@ -4,7 +4,7 @@ import {
   hashPacket,
   replayPacket,
   verifyIntelPacket,
-} from "../src/index.js";
+} from "@intelpacket/core";
 
 const record = {
   event_type: "order.created",

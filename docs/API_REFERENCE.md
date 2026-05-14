@@ -4,6 +4,22 @@ This document describes **exported public APIs** of `@intelpacket/core` and `@in
 
 ---
 
+## Packages
+
+```bash
+npm install @intelpacket/core
+npm install @intelpacket/pii
+```
+
+```typescript
+import { createPacket } from "@intelpacket/core";
+import { protectPII, createPIIPacket } from "@intelpacket/pii";
+```
+
+`@intelpacket/pii` depends on `@intelpacket/core`; npm installs the dependency automatically.
+
+---
+
 ## `@intelpacket/core`
 
 ### `createPacket(input, options?)`

@@ -1,7 +1,8 @@
 {
   "name": "@intelpacket/core",
   "version": "0.1.0",
-  "description": "Deterministic structured-data packetization for Node.js: normalize, canonicalize, compact, dedupe, delta, compress, hash, replay.",
+  "description": "Deterministic structured-data packetization, replay verification, deduplication, compaction, and integrity engine for JSON-like structured systems.",
+  "author": "Aproof LLC",
   "license": "MIT",
   "sideEffects": false,
   "type": "module",
@@ -64,9 +65,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/intelpacket/intelpacket.git",
+    "url": "https://github.com/AproofLLC/IntelPacket.git",
     "directory": "packages/core"
   },
+  "bugs": {
+    "url": "https://github.com/AproofLLC/IntelPacket/issues"
+  },
+  "homepage": "https://github.com/AproofLLC/IntelPacket/tree/main/packages/core#readme",
   "publishConfig": {
     "access": "public"
   }

@@ -1,11 +1,13 @@
-# IntelPacket (`@intelpacket/core`)
+# IntelPacket Core
+
+Package: `@intelpacket/core`
 
 **Deterministic structured-data packetization for Node.js:** normalize → canonicalize → compact → dedupe → optional delta metadata → compress → SHA-256 hash → versioned packet shell → verified replay.
 
 IntelPacket is an embeddable library: it turns JSON-compatible trees into canonical, hashed, compressible packets with lossless replay. It does **not** define a transport protocol, binary wire interchange standard, or semantic analysis of payload content.
 
 **Formal spec:** [IntelPacket Specification v1](./docs/intelpacket-spec-v1.md)  
-**Suite limitations:** [Limitations & Non-Goals](https://github.com/intelpacket/intelpacket/blob/main/docs/LIMITATIONS.md)
+**Suite limitations:** [Limitations & Non-Goals](https://github.com/AproofLLC/IntelPacket/blob/main/docs/LIMITATIONS.md)
 
 ## Integrity Hardening
 
@@ -23,10 +25,10 @@ Strict 100k benchmarks are manual only and are not run by CI.
 ## Install
 
 ```bash
-pnpm add @intelpacket/core
-# or
 npm install @intelpacket/core
 ```
+
+Optional pnpm/yarn equivalents: `pnpm add @intelpacket/core` or `yarn add @intelpacket/core`.
 
 Requires **Node.js 18+**.
 

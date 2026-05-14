@@ -4,7 +4,7 @@ import {
   createPacket,
   diffPackets,
   replayPacket,
-} from "../src/index.js";
+} from "@intelpacket/core";
 
 const snap1 = {
   service: "api",

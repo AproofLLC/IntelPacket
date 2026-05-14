@@ -2,7 +2,7 @@
  * Synthetic education record — not real student data.
  * Run: pnpm exec tsx examples/education.ts
  */
-import { protectPII, validatePrivacyPolicy, verifyPrivacyResult } from "../src/index.js";
+import { protectPII, validatePrivacyPolicy, verifyPrivacyResult } from "@intelpacket/pii";
 
 const TOK = process.env.TOKEN_SECRET ?? "dev-32-byte-edu-placeholder-key!!!";
 const HMK = process.env.HMAC_SECRET ?? "dev-32-byte-edu-hmac-placeholder!!!";

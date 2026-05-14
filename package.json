@@ -3,6 +3,16 @@
   "private": true,
   "version": "0.1.0",
   "description": "Monorepo for @intelpacket/core and @intelpacket/pii — deterministic structured-data packetization and optional privacy preprocessing.",
+  "author": "Aproof LLC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AproofLLC/IntelPacket.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AproofLLC/IntelPacket/issues"
+  },
+  "homepage": "https://github.com/AproofLLC/IntelPacket#readme",
   "packageManager": "pnpm@9.15.0",
   "scripts": {
     "typecheck": "corepack pnpm -r run typecheck",

@@ -2,7 +2,7 @@
  * Synthetic HR record — not real employee data.
  * Run: pnpm exec tsx examples/hr.ts
  */
-import { protectPII, validatePrivacyPolicy, verifyPrivacyResult } from "../src/index.js";
+import { protectPII, validatePrivacyPolicy, verifyPrivacyResult } from "@intelpacket/pii";
 
 const TOK = process.env.TOKEN_SECRET ?? "dev-32-byte-hr-placeholder-key!!!";
 const HMK = process.env.HMAC_SECRET ?? "dev-32-byte-hr-hmac-placeholder-key!";

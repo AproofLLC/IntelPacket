@@ -1,4 +1,4 @@
-import { canonicalStringify, createPacket, replayPacket } from "../src/index.js";
+import { canonicalStringify, createPacket, replayPacket } from "@intelpacket/core";
 
 const template = { host: "edge-1", region: "us-west" };
 

@@ -12,6 +12,8 @@ pnpm run verify
 
 `@intelpacket/pii` typechecks against built `@intelpacket/core` declarations; building core first avoids stale `dist` types.
 
+Official npm package names are `@intelpacket/core` and `@intelpacket/pii`.
+
 ## Commands
 
 | Command | Purpose |
